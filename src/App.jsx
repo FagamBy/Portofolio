@@ -1,11 +1,24 @@
-import React from "react"
+import React from 'react'
+import styles from './style'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
 
-function App() {
-
+const App = () => {
   return (
-    <div className="flex items-center justify-center w-full min-h-screen">
-      <h1>Web ini sedang dalam pembuatan</h1>
-      <p>(Sedang membuat desain)</p>
+    <div className="bg-[#2e3440] w-full overflow-hidden">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Navbar />
+            </div>
+        </div>
+
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Home/>
+              <About/>
+            </div>
+        </div>
     </div>
   )
 }
