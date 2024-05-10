@@ -19,7 +19,7 @@ const Navbar = () => {
       bg-[#2e3440]
       `}
     >
-      <h1 className="text-[#ECEFF4] font-semibold">IRTIDEATH</h1>
+      <h1 className="text-[#ECEFF4] font-semibold">Mond</h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
