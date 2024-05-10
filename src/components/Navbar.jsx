@@ -14,7 +14,11 @@ const Navbar = () => {
     });
   }, []);
   return (
-    <nav className={`w-full flex py-5 justify-between items-center top-0 right-0 px-6 z-[1000] fixed ${scroll ? "stickys" : "bstickys"}`}>
+    <nav className={`w-full flex py-5 justify-between items-center top-0 right-0 px-6 z-[1000]
+      fixed ${scroll ? "stickys" : "bstickys"}
+      bg-[#2e3440]
+      `}
+    >
       <h1 className="text-[#ECEFF4] font-semibold">IRTIDEATH</h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

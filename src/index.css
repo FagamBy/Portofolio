@@ -1,47 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    font-family: 'Poppins';
-    scroll-behavior: smooth;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
 }
 
 .stickys {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    transition: all .50s ease;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  transition: all 0.5s ease;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .bstickys {
-    transition: all .50s ease;
+  transition: all 0.5s ease;
 }
 
 .sidebar {
-    -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
   }
-  
-  @-webkit-keyframes slide-top {
-    0% {
-      -webkit-transform: translateY(100px);
-      transform: translateY(100px);
-    }
-    100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
-  
-  @keyframes slide-top {
-    0% {
-      -webkit-transform: translateY(100px);
-      transform: translateY(100px);
-    }
-    100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
   }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+.spacer {
+    aspect-ratio: 900/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('./assets/waves1.svg');
+}

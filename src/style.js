@@ -1,11 +1,11 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full",
+  boxWidth: "w-full",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 
-  paddingX: "sm:px-10 px-6",
-  paddingY: "sm:py-12 py-6",
+  paddingX: "px-6",
+  paddingY: "py-6",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-12 mx-6",
