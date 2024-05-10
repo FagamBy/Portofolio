@@ -19,7 +19,7 @@ const Navbar = () => {
       bg-[#2e3440]
       `}
     >
-      <h1 className="text-[#ECEFF4] font-semibold">Mond</h1>
+      <h1 className="text-[#ECEFF4] font-semibold text-2xl">Mond</h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -47,15 +47,17 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-[#292e39] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-[#5E81AC] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-[#D8DEE9]"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                className={`font-poppins font-medium cursor-pointer text-[16px]
+                  text-[#ECEFF4] hover:bg-[#81A1C1] hover:duration-300 rounded-[0.300rem]
+                  px-2 py-[0.3rem]
+                  ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
+                `}
                 onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
