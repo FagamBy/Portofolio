@@ -5,7 +5,6 @@ import { close, menu } from "../assets";
 
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
@@ -29,7 +28,6 @@ const Navbar = () => {
             transition duration-0
             hover:bg-[#4C566A] hover:duration-300
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -58,7 +56,6 @@ const Navbar = () => {
                   px-2 py-[0.3rem]
                   ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
                 `}
-                onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
