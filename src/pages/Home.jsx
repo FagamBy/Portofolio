@@ -1,6 +1,4 @@
 import React from "react";
-import styles from "../style";
-import blob from "../assets/blob.svg"
 
 const Home = () => {
   return (

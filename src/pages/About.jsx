@@ -1,11 +1,11 @@
 import React from "react";
-import icon2 from '../assets/icon2.svg'
+import { Backpack } from "../assets/icon/Backpack";
 
 const About = () => {
   return (
     <div className="bg-[#292e39] flex flex-col">
       <div id="about" className="spacer layer1 flex items-center justify-start px-6">
-        <img src={icon2} alt="" className="xs:w-[40px] xs:h-auto xs:object-contain ss:w-[70px] ss:h-auto ss:object-contain"/>
+        <Backpack/>
       </div>
 
       <div className="min-h-[60vh] w-full">
