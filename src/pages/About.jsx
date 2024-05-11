@@ -1,5 +1,6 @@
 import React from "react";
 import { Backpack } from "../assets/icon/Backpack";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -12,7 +13,13 @@ const About = () => {
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">About me</h1>
-            <div className="w-[115px] py-[1px] bg-[#808691]"></div>
+            <motion.div
+                className="w-[115px] bg-[#808691] py-[1px]"
+                initial={{ width: "0px" }}
+                whileInView={{ width: "115px" }}
+                viewport={{once: true}}
+                transition={{ duration: 0.5 }}
+            ></motion.div>
           </div>
 
           <div className="flex ss:flex-row flex-col ss:space-y-0 space-y-9 items-center justify-between mx-6 bg-[#434C5E] p-5 mt-8 rounded-md">
