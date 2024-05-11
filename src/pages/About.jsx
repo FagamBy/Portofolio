@@ -8,7 +8,7 @@ const About = () => {
         <Backpack/>
       </div>
 
-      <div className="min-h-[60vh] w-full">
+      <div className="min-h-[55vh] w-full">
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">About me</h1>

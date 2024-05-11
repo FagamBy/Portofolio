@@ -66,6 +66,10 @@ body {
     background-image: url('./assets/waves1.svg');
 }
 
+.layer2 {
+    background-image: url('./assets/waves2.svg');
+}
+
 svg {
   pointer-events: none;
 }
