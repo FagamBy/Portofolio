@@ -19,24 +19,24 @@ const About = () => {
             <div className="flex flex-col ss:w-[40%] space-y-3">
               <h1 className="text-[#eceff4]">- My Story</h1>
               <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
-                Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Molestias illum facere possimus
-                reprehenderit consectetur illo!
-                Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente.
+                The beginning of learning basic programming was very fun, but
+                after learning more deeply, my head was dizzy. But I didn't give
+                up and kept learning, because it was fun and I liked it. And that 
+                was just frontend.
               </p>
               
               <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
-                Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Molestias illum facere possimus
-                reprehenderit consectetur illo!
-                Lorem ipsum dolor sit amet.asdads
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente.
+                After entering the backend section, more errors appeared than 
+                on the frontend section. I actually couldn't do mathematics 
+                since I was little, and thought about giving up learning programming because 
+                it might require strong logic in learning programming. But I always remember
+                my goal in learning programming. And I decided
+                to learn programming more often until I master it
               </p>
             </div>
 
             <div className="bg-[#3b4252] ss:w-[40%] flex p-5 rounded-md">
-              <ul className="text-[#E5E9F0]">
+              <ul className="text-[#E5E9F0] text-lg">
                 <li>Hobby : Reading novel, Gaming, Coding</li>
                 <li>Status : Student</li>
                 <li>Age : 17</li>
