@@ -5,11 +5,14 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="bg-[#292e39] flex flex-col">
-      <div id="about" className="spacer layer1 flex items-center justify-start px-6">
+      <div className="spacer layer1 flex items-center justify-start px-6 absolute">
         <Backpack/>
       </div>
 
-      <div className="min-h-[55vh] w-full">
+      <div id="about"
+        className="w-full pt-20
+        z-10 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60"
+      >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">About me</h1>
@@ -28,7 +31,7 @@ const About = () => {
               <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
                 The beginning of learning basic programming was very fun, but
                 after learning more deeply, my head was dizzy. But I didn't give
-                up and kept learning, because it was fun and I liked it. And that 
+                up and kept learning, because it was fun and I liked it. And that
                 was just frontend.
               </p>
               
