@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import React, { useRef } from "react";
-import { IconCss, IconHtml, IconJs, IconTs } from '../assets/icon/Skill';
+import { IconCss, IconHtml, IconJs, IconNextjs, IconReact, IconTailwind, IconTs } from '../assets/icon/Skill';
 
 const Skills = () => {
     const ref = useRef(null)
@@ -12,7 +12,7 @@ const Skills = () => {
       </div>
 
       <div id="skills"
-        className="min-h-[60vh] w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
+        className="min-h-[100vh] w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
@@ -22,16 +22,33 @@ const Skills = () => {
                 initial={{ width: "0px" }}
                 whileInView={{ width: "90px" }}
                 viewport={{once: true}}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.7 }}
             ></motion.div>
           </div>
 
-          <div className="flex flex-col items-center justify-between mx-6 mt-8">
-            <div className="flex p-5 bg-[#3B4252] space-x-5 rounded-md">
-              <IconHtml/>
-              <IconCss/>
-              <IconJs/>
-              <IconTs/>
+          <div className="flex flex-col mx-6 big:mx-12 xl:mx-20 xxl:mx-28 mt-8 space-y-5">
+            <div className="flex justify-end">
+              <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md">
+                <IconHtml/>
+                <IconCss/>
+                <IconJs/>
+                <IconTs/>
+              </div>
+            </div>
+
+            <div className="flex justify-start">
+              <div className="flex flex-col items-start p-5 bg-[#292e39] w-[300px] rounded-md">
+                <h1>lorem</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nostrum!</p>
+              </div>
+            </div>
+
+            <div className="flex justify-end">
+              <div className="flex items-center justify-between w-[450px] p-5 bg-[#292e39] rounded-md">
+                <IconTailwind/>
+                <IconReact/>
+                <IconNextjs/>
+              </div>
             </div>
           </div>
         </div>

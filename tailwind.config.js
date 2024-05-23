@@ -12,7 +12,9 @@ export default {
       sm: "760px",
       md: "1060px",
       lg: "1200px",
-      xl: "1700px",
+      big: "1400px",
+      xl: "1500px",
+      xxl: "1700px"
     },
   },
   plugins: [],

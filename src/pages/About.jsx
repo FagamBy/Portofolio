@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="bg-[#292e39] flex flex-col">
-      <div className="spacer layer1 flex items-center justify-start px-6 absolute">
+      <div className="spacer layer1 flex items-center justify-start px-6 big:px-12 xl:px-20 xxl:px-28 absolute">
         <Backpack/>
       </div>
 
       <div id="about"
-        className="w-full pt-20
+        className="w-full pt-16
         z-10 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60"
       >
         <div className="flex flex-col justify-center">
@@ -21,11 +21,11 @@ const About = () => {
                 initial={{ width: "0px" }}
                 whileInView={{ width: "115px" }}
                 viewport={{once: true}}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.7 }}
             ></motion.div>
           </div>
 
-          <div className="flex ss:flex-row flex-col ss:space-y-0 space-y-9 items-center justify-between mx-6 bg-[#434C5E] p-5 mt-8 rounded-md">
+          <div className="flex ss:flex-row flex-col ss:space-y-0 space-y-9 items-center justify-between bg-[#434C5E] mx-6 big:mx-12 xl:mx-20 xxl:mx-28 p-5 mt-8 rounded-md">
             <div className="flex flex-col ss:w-[40%] space-y-3">
               <h1 className="text-[#eceff4]">- My Story</h1>
               <p className="text-justify text-wrap text-[#D8DEE9] text-sm">

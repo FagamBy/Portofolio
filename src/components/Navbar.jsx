@@ -9,14 +9,15 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 80);
+      setScroll(window.scrollY > 50);
     });
   }, []);
   return (
-    <nav className={`w-full flex py-5 justify-between items-center top-0 right-0 px-6 z-[1000]
+    <nav className={`w-full flex py-5 justify-between items-center top-0 right-0 px-6 big:px-12 xl:px-20 xxl:px-28 z-[1000]
       fixed ${scroll ? "stickys" : "bstickys"}
       bg-[#2e3440]
       `}
+      // lanjutin benerin mx dan px nya di ukuran layar besar
     >
       <h1 className="text-[#ECEFF4] font-semibold text-2xl">Mond</h1>
 
