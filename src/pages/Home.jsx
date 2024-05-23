@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div id="home" className="bg-[#2e3440] flex sm:flex-row flex-col items-center px-6 big:px-12 xl:px-20 xxl:px-28
+    <div id="home" className="bg-[#2e3440] flex sm:flex-row flex-col items-center px-8 big:px-20 xl:px-36 xxl:px-40
       sm:justify-between pt-24"
     >
       <div className="flex flex-col space-y-3">

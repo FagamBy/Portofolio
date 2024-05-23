@@ -13,7 +13,7 @@ const Navbar = () => {
     });
   }, []);
   return (
-    <nav className={`w-full flex py-5 justify-between items-center top-0 right-0 px-6 big:px-12 xl:px-20 xxl:px-28 z-[1000]
+    <nav className={`w-full flex py-5 justify-between items-center top-0 right-0 px-8 big:px-20 xl:px-36 xxl:px-40 z-[1000]
       fixed ${scroll ? "stickys" : "bstickys"}
       bg-[#2e3440]
       `}
@@ -26,8 +26,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-medium cursor-pointer text-[16px] py-[0.3rem] px-2 text-[#ECEFF4] rounded-[0.300rem]
-            transition duration-0
-            hover:bg-[#4C566A] hover:duration-300
+            hover:bg-[#4C566A]
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>

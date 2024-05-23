@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="bg-[#2e3440] flex flex-col">
       <div
-        className="spacer layer2 flex items-center justify-start px-6 absolute"
+        className="spacer layer2 absolute"
       >
       </div>
 
@@ -26,8 +26,8 @@ const Skills = () => {
             ></motion.div>
           </div>
 
-          <div className="flex flex-col mx-6 big:mx-12 xl:mx-20 xxl:mx-28 mt-8 space-y-5">
-            <div className="flex justify-end">
+          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 mt-8 space-y-5">
+            <div className="flex sm:justify-end justify-center">
               <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md">
                 <IconHtml/>
                 <IconCss/>
@@ -36,14 +36,14 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="flex justify-start">
+            <div className="flex sm:justify-start justify-center">
               <div className="flex flex-col items-start p-5 bg-[#292e39] w-[300px] rounded-md">
                 <h1>lorem</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nostrum!</p>
               </div>
             </div>
 
-            <div className="flex justify-end">
+            <div className="flex sm:justify-end justify-center">
               <div className="flex items-center justify-between w-[450px] p-5 bg-[#292e39] rounded-md">
                 <IconTailwind/>
                 <IconReact/>

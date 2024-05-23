@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="bg-[#292e39] flex flex-col">
-      <div className="spacer layer1 flex items-center justify-start px-6 big:px-12 xl:px-20 xxl:px-28 absolute">
+      <div className="spacer layer1 flex items-center justify-start px-8 big:px-20 xl:px-36 xxl:px-40 absolute">
         <Backpack/>
       </div>
 
@@ -25,7 +25,7 @@ const About = () => {
             ></motion.div>
           </div>
 
-          <div className="flex ss:flex-row flex-col ss:space-y-0 space-y-9 items-center justify-between bg-[#434C5E] mx-6 big:mx-12 xl:mx-20 xxl:mx-28 p-5 mt-8 rounded-md">
+          <div className="flex ss:flex-row flex-col ss:space-y-0 space-y-9 items-center justify-between bg-[#434C5E] mx-8 big:mx-20 xl:mx-36 xxl:mx-40 p-5 mt-8 rounded-md">
             <div className="flex flex-col ss:w-[40%] space-y-3">
               <h1 className="text-[#eceff4]">- My Story</h1>
               <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
