@@ -3,7 +3,7 @@ import React from 'react'
 export const IconHtml = () => {
   return (
     <svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
-    className="w-[85px] h-auto object-contain"
+    className="ss:w-[85px] xs:w-[70px] h-auto object-contain"
     >
 
         <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -20,7 +20,7 @@ export const IconHtml = () => {
 export const IconCss = () => {
   return (
     <svg width="800px" height="800px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
-    className="w-[85px] h-auto object-contain"
+    className="ss:w-[85px] xs:w-[70px] h-auto object-contain"
     >
 
         <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -39,7 +39,7 @@ export const IconJs = () => {
     <svg width="800px" height="800px" viewBox="0 0 256 256" version="1.1"
         xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
         preserveAspectRatio="xMidYMid" fill="#000000"
-        className="w-[80px] h-auto object-contain p-2"
+        className="ss:w-[80px] xs:w-[65px] h-auto object-contain p-2"
     >
 
         <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -58,7 +58,7 @@ export const IconTs = () => {
     <svg width="800px" height="800px" viewBox="0 0 256 256" version="1.1"
         xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
         preserveAspectRatio="xMidYMid" fill="#000000"
-        className="w-[80px] h-auto object-contain p-2"
+        className="ss:w-[80px] xs:w-[65px] h-auto object-contain p-2"
     >
 
         <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -76,7 +76,7 @@ export const IconReact = () => {
   return (
     <svg width="800px" height="800px" viewBox="0 -14 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"
-      className="w-[75px] h-auto object-contain"
+      className="ss:w-[75px] xs:w-[65px] h-auto object-contain"
     >
 
       <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -93,7 +93,7 @@ export const IconReact = () => {
 export const IconTailwind = () => {
   return (
     <svg fill="#38bdf8" width="800px" height="800px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"
-    className="w-[75px] h-auto object-contain"
+    className="ss:w-[75px] xs:w-[65px] h-auto object-contain"
     >
 
       <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -115,7 +115,7 @@ export const IconNextjs = () => {
   return (
     <svg width="800px" height="800px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"
-      className="w-[75px] h-auto object-contain"
+      className="ss:w-[75px] xs:w-[65px] m h-auto object-contain"
     >
 
       <g id="SVGRepo_bgCarrier" strokeWidth="0"/>

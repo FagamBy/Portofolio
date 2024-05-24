@@ -37,7 +37,7 @@ const Skills = () => {
             </div>
 
             <div className="flex sm:justify-start justify-center">
-              <div className="flex flex-col items-start p-5 bg-[#292e39] w-[300px] rounded-md">
+              <div className="flex flex-col items-start p-5 w-[300px] text-[#ECEFF4]">
                 <h1>lorem</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nostrum!</p>
               </div>
