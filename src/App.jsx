@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
+import Sertifikat from "./pages/Sertifikat";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Home />
         <About />
         <Skills/>
+        <Sertifikat/>
       </div>
     </div>
   );
