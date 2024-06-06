@@ -101,7 +101,7 @@ export const IconJs = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
             fill="#000000"
-            className="ss:w-[80px] xs:w-[65px] h-auto object-contain p-2"
+            className="ss:w-[80px] xs:w-[68px] h-auto object-contain p-2"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -156,7 +156,7 @@ export const IconTs = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
             fill="#000000"
-            className="ss:w-[80px] xs:w-[65px] h-auto object-contain p-2"
+            className="ss:w-[80px] xs:w-[68px] h-auto object-contain p-2"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
