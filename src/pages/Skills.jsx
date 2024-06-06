@@ -26,11 +26,11 @@ const Skills = () => {
             ></motion.div>
           </div>
 
-          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 mt-8 space-y-5">
+          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 mt-16 space-y-12">
             <div className="flex sm:justify-end justify-center">
               <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md"
               >
-                
+
                 <IconHtml/>
                 <IconCss/>
                 <IconJs/>
@@ -39,13 +39,16 @@ const Skills = () => {
             </div>
 
             <div className="flex sm:justify-start justify-center">
-              <div className="flex flex-col items-start p-5 w-[300px] text-[#ECEFF4]">
-                <h1>lorem</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nostrum!</p>
+              <div className="flex flex-col items-start space-y-5 sm:w-[35vw] ss:w-[50vw] xs:w-[70vw] text-wrap text-[#ECEFF4]">
+                <h1 className="text-3xl font-semibold">Mond Tech Stack.</h1>
+                <p className="text-lg font-normal">
+                  I'm learning to create my own personal tech stack,
+                  of course with my favorite programming language
+                </p>
               </div>
             </div>
 
-            <div className="flex sm:justify-end justify-center">
+            <div className="flex sm:justify-end justify-center md:mr-24 xs:mr-0">
               <div className="flex items-center justify-between w-[450px] p-5 bg-[#292e39] rounded-md">
                 <IconTailwind/>
                 <IconReact/>
