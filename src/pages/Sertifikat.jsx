@@ -31,7 +31,7 @@ const Sertifikat = () => {
               initial={{ width: "0px" }}
               whileInView={{ width: "110px" }}
               viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
             ></motion.div>
           </div>
 

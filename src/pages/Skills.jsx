@@ -12,7 +12,7 @@ const Skills = () => {
       </div>
 
       <div id="skills"
-        className="min-h-[100vh] w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
+        className="w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
@@ -22,13 +22,15 @@ const Skills = () => {
                 initial={{ width: "0px" }}
                 whileInView={{ width: "90px" }}
                 viewport={{once: true}}
-                transition={{ duration: 0.7 }}
+                transition={{ duration: 0.7, delay: 0.2 }}
             ></motion.div>
           </div>
 
           <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 mt-8 space-y-5">
             <div className="flex sm:justify-end justify-center">
-              <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md">
+              <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md"
+              >
+                
                 <IconHtml/>
                 <IconCss/>
                 <IconJs/>
