@@ -1,5 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
+import { Expe } from "@/constants";
 
 import Autoplay from "embla-carousel-autoplay"
 import {
@@ -9,7 +10,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card"
 
 const Sertifikat = () => {
   const plugin = React.useRef(
@@ -20,16 +20,15 @@ const Sertifikat = () => {
       <div className="spacer layer3 absolute"></div>
 
       <div
-        id="project"
-        className="min-h-[100vh] w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
+        className="w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
-            <h1 className="text-3xl text-[#ECEFF4] font-medium">My Sertificate</h1>
+            <h1 className="text-3xl text-[#ECEFF4] font-medium">My Experience</h1>
             <motion.div
-              className="w-[110px] bg-[#808691] py-[1px]"
+              className="w-[150px] bg-[#808691] py-[1px]"
               initial={{ width: "0px" }}
-              whileInView={{ width: "110px" }}
+              whileInView={{ width: "150px" }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.2 }}
             ></motion.div>
@@ -43,16 +42,23 @@ const Sertifikat = () => {
               onMouseLeave={plugin.current.play}
             >
               <CarouselContent>
-                {Array.from({ length: 5 }).map((_, index) => (
+                {/* {Array.from({ length: 2 }).map((_, index) => (
                   <CarouselItem key={index}>
                     <div className="p-1">
-                      <Card>
-                        <CardContent className="flex aspect-square items-center justify-center p-6">
-                          <span className="text-4xl font-semibold">
-                            {index + 1}
-                          </span>
-                        </CardContent>
-                      </Card>
+                      <div className="p-6 bg-white">
+                        <img src="" alt="" />
+                      </div>
+                    </div>
+                  </CarouselItem>
+                ))} */}
+                {Expe.map((exp) => (
+                  <CarouselItem key={exp.id}>
+                    <div className="p-1">
+                      <div className="bg-[#434C5E] rounded-md">
+                        <div className="px-7 py-5">
+                          <h1 className="text-[#ECEFF4] text-base font font-medium">{exp.title}</h1>
+                        </div>
+                      </div>
                     </div>
                   </CarouselItem>
                 ))}
