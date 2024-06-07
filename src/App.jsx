@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Sertifikat from "./pages/Sertifikat";
+import Project from "./pages/Project";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <About />
         <Skills/>
         <Sertifikat/>
+        <Project/>
       </div>
     </div>
   );
