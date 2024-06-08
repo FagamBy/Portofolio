@@ -22,16 +22,16 @@ const Navbar = () => {
       <div className="flex items-center space-x-2">
         <svg
           className="w-[40px] h-[40px] object-contain"
-          width="135"
-          height="148"
-          viewBox="0 0 135 148"
+          width="197"
+          height="218"
+          viewBox="0 0 197 218"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
-            d="M2 2H22.6415L113.827 93.1852L108.919 98.0933L19.7664 8.94118H8.94118V122.047H85.3594V128.989H2V2Z"
+            d="M2 1.99988H32.3693L166.527 136.158L159.306 143.379L28.1392 12.2122H12.2124V171.266H121.702V181.478H2V1.99988Z"
             fill="#ECEFF4"
             stroke="#ECEFF4"
             stroke-width="3"
@@ -39,14 +39,20 @@ const Navbar = () => {
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
-            d="M132.982 144L82.0936 92.9987L87.0072 88.096L126.041 127.216V9.17255H52.8034V2.23137H132.982V144Z"
+            d="M195 213.523L120.129 138.486L127.358 131.273L184.788 188.829V12.2124H77.0349V2.00003H195V213.523Z"
             fill="#ECEFF4"
             stroke="#ECEFF4"
             stroke-width="3"
           />
         </svg>
 
-        <h1 className={`text-[#ECEFF4] font-semibold text-3xl ${scroll ? "hidden" : "flex"}`}>Mond</h1>
+        <h1
+          className={`text-[#ECEFF4] font-semibold text-3xl ${
+            scroll ? "hidden" : "flex"
+          }`}
+        >
+          Mond
+        </h1>
         {/* tammbahin animation sebelum scroll dan sesudah scroll */}
       </div>
 
