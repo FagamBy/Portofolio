@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Sertifikat from "./pages/Sertifikat";
 import Project from "./pages/Project";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Skills/>
         <Sertifikat/>
         <Project/>
+        <Footer/>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 50);
+      setScroll(window.scrollY > 20);
     });
   }, []);
   return (
@@ -29,20 +29,20 @@ const Navbar = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M2 1.99988H32.3693L166.527 136.158L159.306 143.379L28.1392 12.2122H12.2124V171.266H121.702V181.478H2V1.99988Z"
             fill="#ECEFF4"
             stroke="#ECEFF4"
-            stroke-width="3"
+            strokeWidth="3"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M195 213.523L120.129 138.486L127.358 131.273L184.788 188.829V12.2124H77.0349V2.00003H195V213.523Z"
             fill="#ECEFF4"
             stroke="#ECEFF4"
-            stroke-width="3"
+            strokeWidth="3"
           />
         </svg>
 
