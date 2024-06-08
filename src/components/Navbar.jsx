@@ -13,13 +13,13 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`w-full flex py-5 justify-between items-center top-0 right-0 px-8 big:px-20 xl:px-36 xxl:px-40 z-[1000]
+      className={`w-full flex py-[1.35rem] justify-between items-center top-0 right-0 px-8 big:px-20 xl:px-36 xxl:px-40 z-[1000]
       fixed ${scroll ? "stickys" : "bstickys"}
       bg-[#2e3440]
       `}
       // lanjutin benerin mx dan px nya di ukuran layar besar
     >
-      <div className="flex items-center space-x-2">
+      <a href="#home" className="flex items-center space-x-2">
         <svg
           className="w-[40px] h-[40px] object-contain"
           width="197"
@@ -54,7 +54,7 @@ const Navbar = () => {
           Mond
         </h1>
         {/* tammbahin animation sebelum scroll dan sesudah scroll */}
-      </div>
+      </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
