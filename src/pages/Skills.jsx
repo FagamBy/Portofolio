@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import React, { useRef } from "react";
-import { IconCss, IconHtml, IconJs, IconNextjs, IconReact, IconTailwind, IconTs } from '../assets/icon/Skill';
+import { IconCss, IconHtml, IconJs, IconNextjs, IconReact, IconTailwind, IconThreejs, IconTs } from '../assets/icon/Skill';
 
 const Skills = () => {
     const ref = useRef(null)
@@ -53,6 +53,7 @@ const Skills = () => {
                 <IconTailwind/>
                 <IconReact/>
                 <IconNextjs/>
+                <IconThreejs/>
               </div>
             </div>
           </div>
