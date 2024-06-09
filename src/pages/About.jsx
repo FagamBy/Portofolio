@@ -33,7 +33,7 @@ const About = () => {
             ></motion.div>
           </div>
 
-          <div className="flex items-center justify-center mt-8">
+          <div className="flex items-center justify-center my-8">
             <div className="sm:w-[40%] xs:w-[80%] ss:w-[60%]">
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-2">

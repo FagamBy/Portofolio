@@ -34,7 +34,7 @@ const Sertifikat = () => {
             ></motion.div>
           </div>
 
-          <div className="w-full flex justify-center mt-5">
+          <div className="w-full flex justify-center my-5">
             <Carousel
               plugins={[plugin.current]}
               className="w-full max-w-xs"
