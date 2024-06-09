@@ -10,7 +10,7 @@ import inditechimg from "/inditechimg.png"
 export const Card1 = () => {
   return (
     <div className="bg-[#4C566A] text-[#88C0D0] flex flex-col rounded-b-md">
-      <img src={nexcentimg} alt="" />
+      <img src={nexcentimg} alt=""/>
       <div className="p-5 flex flex-col space-y-3">
         <h1 className="text-2xl font-semibold">Nexcent</h1>
         <div className="flex space-x-4 text-xl">
