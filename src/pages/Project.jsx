@@ -21,7 +21,7 @@ const Project = () => {
           </div>
 
           <div className="mx-8 big:mx-20 xl:mx-36 xxl:mx-40 mt-16">
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid lg:grid-cols-3 xs:grid-rows-3 sm:grid-cols-2 gap-6 ">
               <Card1/>
               <Card2/>
               <Card3/>

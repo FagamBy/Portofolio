@@ -14,12 +14,16 @@ export const Card1 = () => {
       <div className="p-5 flex flex-col space-y-3">
         <h1 className="text-2xl font-semibold">Nexcent</h1>
         <div className="flex space-x-4 text-xl">
-          <button>
+          <a href="https://github.com/IRTIDEATH/IRTI-Nexcent"
+            className="hover:text-white transition duration-200"
+          >
             <FontAwesomeIcon icon={faGithub} />
-          </button>
-          <button>
+          </a>
+          <a href="https://irti-nexcent.vercel.app/"
+            className="hover:text-white transition duration-200"
+          >
             <FontAwesomeIcon icon={faPlay} />
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -36,9 +40,10 @@ export const Card2 = () => {
           <button>
             <FontAwesomeIcon icon={faGithub} />
           </button>
-          <button>
+          <a href="https://pancarima.vercel.app/"
+            className="hover:text-white transition duration-200">
             <FontAwesomeIcon icon={faPlay} />
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -75,9 +80,10 @@ export const Card4 = () => {
             <button>
               <FontAwesomeIcon icon={faGithub} />
             </button>
-            <button>
+            <a href="https://web.indi.tech/"
+              className="hover:text-white transition duration-200">
               <FontAwesomeIcon icon={faPlay} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
