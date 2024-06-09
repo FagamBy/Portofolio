@@ -217,7 +217,7 @@ export const IconReact = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
             fill="#000000"
-            className="ss:w-[75px] xs:w-[60px] h-auto object-contain"
+            className="ss:w-[75px] xs:w-[50px] h-auto object-contain"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -261,7 +261,7 @@ export const IconTailwind = () => {
             viewBox="0 0 24 24"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
-            className="ss:w-[75px] xs:w-[60px] h-auto object-contain"
+            className="ss:w-[75px] xs:w-[50px] h-auto object-contain"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -298,7 +298,7 @@ export const IconNextjs = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
             fill="#000000"
-            className="ss:w-[75px] xs:w-[60px] m h-auto object-contain"
+            className="ss:w-[75px] xs:w-[50px] m h-auto object-contain"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -342,7 +342,7 @@ export const IconThreejs = () => {
             version="1.1"
             viewBox="0 0 226.77 226.77"
             xmlns="http://www.w3.org/2000/svg"
-            className="ss:w-[80px] xs:w-[60px] h-auto object-contain"
+            className="ss:w-[80px] xs:w-[50px] h-auto object-contain"
           >
             <g
               transform="translate(8.964 4.2527)"
