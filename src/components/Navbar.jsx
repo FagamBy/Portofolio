@@ -47,11 +47,11 @@ const Navbar = () => {
         </svg>
 
         <h1
-          className={`text-[#ECEFF4] font-semibold text-3xl ${
+          className={`text-[#ECEFF4] font-semibold text-[1.900rem] ${
             scroll ? "hidden" : "flex"
           }`}
         >
-          Mond
+          Zect
         </h1>
         {/* tammbahin animation sebelum scroll dan sesudah scroll */}
       </a>
