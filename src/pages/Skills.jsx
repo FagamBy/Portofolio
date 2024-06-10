@@ -40,10 +40,10 @@ const Skills = () => {
 
             <div className="flex sm:justify-start justify-center">
               <div className="flex flex-col items-start space-y-5 sm:w-[35vw] ss:w-[50vw] xs:w-[70vw] text-wrap text-[#ECEFF4]">
-                <h1 className="text-3xl font-semibold">Mond Tech Stack.</h1>
+                <h1 className="text-3xl font-semibold">Zect Tech Stack.</h1>
                 <p className="text-lg font-normal">
                   I'm learning to create my own personal tech stack,
-                  of course with my favorite programming language
+                  of course with my favorite programming language.
                 </p>
               </div>
             </div>

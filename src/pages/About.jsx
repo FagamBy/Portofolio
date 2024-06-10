@@ -49,7 +49,7 @@ const About = () => {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-1">
-                  <AccordionTrigger>My Story</AccordionTrigger>
+                  <AccordionTrigger>Story</AccordionTrigger>
                   <AccordionContent>
                     <div className="space-y-3">
                       <p className="text-justify text-wrap text-[#D8DEE9] text-sm">

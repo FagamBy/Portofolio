@@ -18,7 +18,7 @@ export const IconHtml = () => {
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="ss:w-[85px] xs:w-[70px] h-auto object-contain"
+            className="ss:w-[80px] xs:w-[60px] h-auto object-contain"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -58,7 +58,7 @@ export const IconCss = () => {
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="ss:w-[85px] xs:w-[70px] h-auto object-contain"
+            className="ss:w-[80px] xs:w-[60px] h-auto object-contain"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -101,7 +101,7 @@ export const IconJs = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
             fill="#000000"
-            className="ss:w-[80px] xs:w-[68px] h-auto object-contain p-2"
+            className="ss:w-[80px] xs:w-[63px] h-auto object-contain p-2"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
@@ -156,7 +156,7 @@ export const IconTs = () => {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
             fill="#000000"
-            className="ss:w-[80px] xs:w-[68px] h-auto object-contain p-2"
+            className="ss:w-[80px] xs:w-[63px] h-auto object-contain p-2"
           >
             <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 

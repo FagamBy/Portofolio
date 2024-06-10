@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#4C566A] flex justify-center items-center mt-12">
+    <div className="bg-[#4C566A] flex justify-center items-center mt-16 rounded-t-[3rem]">
       <div
         className="w-full mx-8 big:mx-20 xl:mx-36 xxl:mx-40
         flex items-center justify-center"
@@ -39,15 +39,15 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-4 text-xl text-[#D8DEE9]">
-            <a href="" className="hover:text-[#88C0D0]">
+            <a href="https://discordapp.com/users/yasudahlah/" className="hover:text-[#88C0D0]">
               <FontAwesomeIcon icon={faDiscord} />
             </a>
 
-            <a href="" className="hover:text-[#88C0D0] text-[1.35rem]">
+            <a href="https://github.com/IRTIDEATH" className="hover:text-[#88C0D0] text-[1.35rem]">
               <FontAwesomeIcon icon={faGithub} />
             </a>
 
-            <a href="" className="hover:text-[#88C0D0] text-[1.45rem]">
+            <a href="https://instagram.com/IrtiDeath" className="hover:text-[#88C0D0] text-[1.45rem]">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>

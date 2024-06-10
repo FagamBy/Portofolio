@@ -37,7 +37,7 @@ export const Card2 = () => {
       <div className="p-5 flex flex-col space-y-3">
         <h1 className="text-2xl font-semibold">Pancarima</h1>
         <div className="flex space-x-4 text-xl">
-          <button>
+          <button className="text-[#BF616A]">
             <FontAwesomeIcon icon={faGithub} />
           </button>
           <a href="https://pancarima.vercel.app/"
@@ -57,10 +57,10 @@ export const Card3 = () => {
       <div className="p-5 flex flex-col space-y-3">
         <h1 className="text-2xl font-semibold">Kasir Desktop</h1>
         <div className="flex space-x-4 text-xl">
-          <button>
+          <button className="text-[#BF616A]">
             <FontAwesomeIcon icon={faGithub} />
           </button>
-          <button>
+          <button className="text-[#BF616A]">
             <FontAwesomeIcon icon={faPlay} />
           </button>
         </div>
@@ -77,7 +77,7 @@ export const Card4 = () => {
         <div className="p-5 flex flex-col space-y-3">
           <h1 className="text-2xl font-semibold">Inditech</h1>
           <div className="flex space-x-4 text-xl">
-            <button>
+            <button className="text-[#BF616A]">
               <FontAwesomeIcon icon={faGithub} />
             </button>
             <a href="https://web.indi.tech/"
