@@ -1,6 +1,7 @@
 import {motion} from 'framer-motion'
 import React, { useRef } from "react";
 import { IconCss, IconHtml, IconJs, IconNextjs, IconReact, IconTailwind, IconThreejs, IconTs } from '../assets/icon/Skill';
+import { Game } from '@/assets/icon/Game';
 
 const Skills = () => {
     const ref = useRef(null)
@@ -48,7 +49,8 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="flex sm:justify-end justify-center md:mr-24 xs:mr-0">
+            <div className="flex sm:justify-end justify-center xs:space-x-0 sm:space-x-16 md:mr-24 xs:mr-0">
+              <Game/>
               <div className="flex items-center justify-between w-[450px] p-5 bg-[#292e39] rounded-md">
                 <IconTailwind/>
                 <IconReact/>
