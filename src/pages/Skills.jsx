@@ -27,7 +27,7 @@ const Skills = () => {
             ></motion.div>
           </div>
 
-          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 my-10 space-y-12">
+          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 my-10">
             <div className="flex sm:justify-end justify-center">
               <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md"
               >
