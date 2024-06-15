@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Backpack = () => {
   return (
-    <svg fill="#3A4150" height="230px" width="230px" version="1.1" id="Layer_1"
+    <svg fill="#4C566A" height="230px" width="230px" version="1.1" id="Layer_1"
         xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 512.00 512.00" xmlSpace="preserve" stroke="#3A4150" strokeWidth="2.56"
         className="xs:w-[40px] xs:h-auto xs:object-contain ss:w-[70px] ss:h-auto ss:object-contain"

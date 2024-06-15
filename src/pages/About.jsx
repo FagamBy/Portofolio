@@ -1,13 +1,17 @@
 import React from "react";
 import { Backpack } from "../assets/icon/Backpack";
 import { motion } from "framer-motion";
-
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+  IconCss,
+  IconHtml,
+  IconJs,
+  IconNextjs,
+  IconReact,
+  IconTailwind,
+  IconThreejs,
+  IconTs,
+} from "../assets/icon/Skill";
+import { Game } from "@/assets/icon/Game";
 
 const About = () => {
   return (
@@ -33,35 +37,54 @@ const About = () => {
             ></motion.div>
           </div>
 
-          <div className="flex items-center justify-center my-8">
+          <div className="flex flex-col my-10 sm:space-y-20 xs:space-y-9">
+            <div className="flex items-center justify-center flex-col space-y-2 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
+              <p className="text-center text-wrap text-[#D8DEE9] text-sm">
+                A junior web developer who loves learning to code
+              </p>
+              <p className="text-center text-wrap text-[#D8DEE9] text-sm">
+                I created this website to showcase both the projects I am
+                currently working on and those I have completed.
+              </p>
+            </div>
+
+            <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 space-y-6 sm:space-y-0">
+              <div className="flex sm:justify-end justify-center">
+                <div className="flex items-center justify-between p-5 bg-[#434C5E] w-[450px] rounded-md">
+                  <IconHtml />
+                  <IconCss />
+                  <IconJs />
+                  <IconTs />
+                </div>
+              </div>
+
+              <div className="flex sm:justify-start justify-center">
+                <div
+                  className="flex flex-col space-y-5 sm:w-[35vw] ss:w-[50vw]
+                  xs:w-[70vw] text-wrap text-[#ECEFF4] xs:text-center sm:text-start"
+                >
+                  <h1 className="text-3xl font-semibold">My Skills.</h1>
+                  <p className="text-lg font-normal">
+                    I'm learning to create my own personal tech stack, of course
+                    with my favorite programming language.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex sm:justify-end justify-center xs:space-x-0 sm:space-x-16 md:mr-24 xs:mr-0">
+                <Game />
+                <div className="flex items-center justify-between w-[450px] p-5 bg-[#434C5E] rounded-md">
+                  <IconTailwind />
+                  <IconReact />
+                  <IconNextjs />
+                  <IconThreejs />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="flex items-center justify-center my-8">
             <div className="sm:w-[40%] xs:w-[80%] ss:w-[60%]">
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="item-2">
-                  <AccordionTrigger>Data</AccordionTrigger>
-                  <AccordionContent>
-                    <ul className="text-[#E5E9F0] text-sm space-y-2">
-                      <li>Name : Al Sakha Fatthariq Anuar</li>
-                      <li>Status : Student</li>
-                      <li>Age : 17</li>
-                      <li>City : Jakarta, Indonesia</li>
-                      <li>Hobby : Reading novel, Gaming, Coding</li>
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-1">
-                  <AccordionTrigger>Story</AccordionTrigger>
-                  <AccordionContent>
-                    <div className="space-y-3">
-                      <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
-                        Since I was little, I couldn't do mathematics. When I
-                        graduated from junior high school I entered the software
-                        engineering department.
-                        I knew it would require very good math skills there.
-                        But it's okay, I'll try my best
-                      </p>
-                    </div>
-                  </AccordionContent>
-                </AccordionItem>
                 <AccordionItem value="item-3">
                   <AccordionTrigger>About This Website</AccordionTrigger>
                   <AccordionContent>
@@ -73,36 +96,8 @@ const About = () => {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-              </Accordion>
             </div>
-
-            {/* <div className="flex flex-col ss:w-[40%] space-y-3">
-              <h1 className="text-[#eceff4]">- My Story</h1>
-              <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
-                The beginning of learning basic programming was very fun, but
-                after learning more deeply, my head was dizzy. But I didn't give
-                up and kept learning, because it was fun and I liked it. And that
-                was just frontend.
-              </p>
-              
-              <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
-                After entering the backend section, more errors appeared than 
-                on the frontend section. I actually couldn't do mathematics 
-                since I was little, and thought about giving up learning programming because 
-                it might require strong logic in learning programming. But I always remember
-                my goal in learning programming. And I decided
-                to learn programming more often until I master it
-              </p>
-            </div> */}
-
-            {/* <div className="bg-[#3b4252] ss:w-[40%] flex p-5 rounded-md">
-              <ul className="text-[#E5E9F0] text-lg">
-                <li>Hobby : Reading novel, Gaming, Coding</li>
-                <li>Status : Student</li>
-                <li>Age : 17</li>
-              </ul>
-            </div> */}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
