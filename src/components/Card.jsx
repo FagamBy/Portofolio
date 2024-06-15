@@ -122,9 +122,9 @@ export const Card5 = () => {
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Todo App</h1> 
         <div className="flex items-center justify-between text-sm font-medium">
           <a
-            aria-disabled
+            href="https://github.com/IRTIDEATH/IRTI-Todo"
             className="hover:text-[#88C0D0] hover:bg-[#ECEFF4] transition duration-200
-            bg-[#88C0D0] p-2 rounded-sm cursor-not-allowed"
+            bg-[#88C0D0] p-2 rounded-sm"
           >
             Source Code
           </a>
