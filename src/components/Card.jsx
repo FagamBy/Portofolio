@@ -119,7 +119,7 @@ export const Card5 = () => {
     <div className="bg-[#292e39] text-[#ECEFF4] flex flex-col rounded-b-md">
       <img src={irtitodo} alt="" />
       <div className="p-5 flex flex-col space-y-6">
-        <div>
+        <div className="flex space-x-2 items-center">
           <h1 className="text-2xl font-semibold text-[#88C0D0]">Todo App</h1> 
           <p>{"[ON PROGRES]"}</p>
         </div>

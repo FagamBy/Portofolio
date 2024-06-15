@@ -27,11 +27,10 @@ const Skills = () => {
             ></motion.div>
           </div>
 
-          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 my-10">
+          <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 my-10 space-y-6 sm:space-y-0">
             <div className="flex sm:justify-end justify-center">
               <div className="flex items-center justify-between p-5 bg-[#292e39] w-[450px] rounded-md"
               >
-
                 <IconHtml/>
                 <IconCss/>
                 <IconJs/>
@@ -40,7 +39,8 @@ const Skills = () => {
             </div>
 
             <div className="flex sm:justify-start justify-center">
-              <div className="flex flex-col items-start space-y-5 sm:w-[35vw] ss:w-[50vw] xs:w-[70vw] text-wrap text-[#ECEFF4]">
+              <div className="flex flex-col space-y-5 sm:w-[35vw] ss:w-[50vw]
+                xs:w-[70vw] text-wrap text-[#ECEFF4] xs:text-center sm:text-start">
                 <h1 className="text-3xl font-semibold">Zect Tech Stack.</h1>
                 <p className="text-lg font-normal">
                   I'm learning to create my own personal tech stack,
