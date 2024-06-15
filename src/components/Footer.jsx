@@ -10,7 +10,7 @@ const Footer = () => {
         flex items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center py-8 space-y-5">
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center justify-center space-x-2">
             <svg
               className="w-[40px] h-[40px] object-contain"
               width="197"

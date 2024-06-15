@@ -3,10 +3,10 @@ import styles from "./style";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Skills from "./pages/Skills";
 import Sertifikat from "./pages/Sertifikat";
 import Project from "./pages/Project";
 import Footer from "./components/Footer";
+import Service from "./pages/Service";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       <div className={`${styles.boxWidth}`}>
         <Home />
         <About />
-        <Skills/>
+        <Service/>
         <Sertifikat/>
         <Project/>
         <Footer/>
