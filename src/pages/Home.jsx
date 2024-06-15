@@ -5,7 +5,7 @@ const Home = () => {
     <div id="home" className="bg-[#2e3440] flex sm:flex-row flex-col items-center px-8 big:px-20 xl:px-36 xxl:px-40
       sm:justify-between pt-24"
     >
-      <div className="flex flex-col space-y-3">
+      <div className="flex flex-col space-y-3 items-start">
         <p className="font-medium text-lg text-[#ECEFF4]">Hi! My name is</p>
         <h1 className="text-6xl font-semibold text-[#ECEFF4]">
           <span className="text-[#88C0D0]">Al Sakha </span>
@@ -14,6 +14,7 @@ const Home = () => {
         <p className="font-medium text-base text-[#ECEFF4]">
           Someone who enjoys learning new things and tech
         </p>
+        <h1 className="text-sm font-medium text-[#ECEFF4] py-2 px-[0.50rem] bg-[#88C0D0] rounded-sm">Web Developer</h1>
       </div>
 
       <div>

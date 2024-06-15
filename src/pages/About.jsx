@@ -62,6 +62,17 @@ const About = () => {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
+                <AccordionItem value="item-3">
+                  <AccordionTrigger>About This Website</AccordionTrigger>
+                  <AccordionContent>
+                    <div className="space-y-3">
+                      <p className="text-justify text-wrap text-[#D8DEE9] text-sm">
+                      I created this website to showcase both the projects I am
+                      currently working on and those I have completed.
+                      </p>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
               </Accordion>
             </div>
 
