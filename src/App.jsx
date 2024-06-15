@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Sertifikat from "./pages/Sertifikat";
 import Project from "./pages/Project";
 import Footer from "./components/Footer";
-import Service from "./pages/Service";
+import Skills from "./pages/Skills";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       <div className={`${styles.boxWidth}`}>
         <Home />
         <About />
-        <Service/>
+        <Skills/>
         <Sertifikat/>
         <Project/>
         <Footer/>

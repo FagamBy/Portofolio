@@ -12,14 +12,14 @@ import {
 } from "../assets/icon/Skill";
 import { Game } from "@/assets/icon/Game";
 
-const Service = () => {
+const Skills = () => {
   const ref = useRef(null);
   return (
     <div className="bg-[#2e3440] flex flex-col">
       <div className="spacer layer2 absolute"></div>
 
       <div
-        id="service"
+        id="skills"
         className="w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
       >
         <div className="flex flex-col justify-center">
@@ -73,4 +73,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Skills;
