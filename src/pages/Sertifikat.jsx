@@ -42,15 +42,6 @@ const Sertifikat = () => {
               onMouseLeave={plugin.current.play}
             >
               <CarouselContent>
-                {/* {Array.from({ length: 2 }).map((_, index) => (
-                  <CarouselItem key={index}>
-                    <div className="p-1">
-                      <div className="p-6 bg-white">
-                        <img src="" alt="" />
-                      </div>
-                    </div>
-                  </CarouselItem>
-                ))} */}
                 {Expe.map((exp) => (
                   <CarouselItem key={exp.id}>
                     <div className="p-1">

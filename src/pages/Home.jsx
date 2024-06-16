@@ -5,7 +5,7 @@ const Home = () => {
     <div
       id="home"
       className="bg-[#2e3440] flex sm:flex-row flex-col items-center px-8 big:px-20 xl:px-36 xxl:px-40
-      sm:justify-between pt-24"
+      sm:justify-between pt-24 pb-16"
     >
       <div className="flex flex-col space-y-3 items-start">
         <p className="font-medium text-lg text-[#ECEFF4]">Hi! My name is</p>
