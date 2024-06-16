@@ -36,7 +36,7 @@ const Skills = () => {
 
           <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 my-10 space-y-6 sm:space-y-0">
             <div className="flex sm:justify-end justify-center">
-              <div className="flex items-center justify-between p-[0.80rem] bg-[#292e39] w-[450px] rounded-md">
+              <div className="flex items-center justify-between p-[0.80rem] bg-[#292e39] w-[450px] rounded-md card-shadow">
                 <IconHtml />
                 <IconCss />
                 <IconJs />
@@ -59,7 +59,7 @@ const Skills = () => {
 
             <div className="flex sm:justify-end justify-center xs:space-x-0 sm:space-x-16 md:mr-24 xs:mr-0">
               <Game />
-              <div className="flex items-center justify-between w-[450px] p-4 bg-[#292e39] rounded-md">
+              <div className="flex items-center justify-between w-[450px] p-4 bg-[#292e39] rounded-md card-shadow">
                 <IconTailwind />
                 <IconReact />
                 <IconNextjs />
