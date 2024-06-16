@@ -80,14 +80,14 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-[#5E81AC] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-[#88C0D0] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px]
-                  text-[#ECEFF4] hover:bg-[#81A1C1] hover:duration-300 rounded-[0.300rem]
+                  text-[#ECEFF4] hover:bg-[#292e39be] hover:duration-300 rounded-[0.300rem]
                   px-2 py-[0.3rem]
                   ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
                 `}
