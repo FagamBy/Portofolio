@@ -17,7 +17,7 @@ const Home = () => {
         <p className="font-medium text-base text-[#ECEFF4]">
           Someone who enjoys learning new things and tech
         </p>
-        <h1 className="text-sm font-medium text-[#ECEFF4] py-2 px-[0.50rem] bg-[#88C0D0] rounded-sm animate-pulse">
+        <h1 className="text-sm font-medium text-[#2e3440] py-2 px-[0.50rem] bg-[#88C0D0] rounded-sm animate-pulse">
           Web Developer
         </h1>
       </div>

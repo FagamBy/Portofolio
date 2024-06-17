@@ -10,7 +10,7 @@ import irtitodo from "/irtitodo.png";
 
 export const Card1 = () => {
   return (
-    <div className="bg-[#292e39] text-[#ECEFF4] flex flex-col rounded-b-md">
+    <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
       <img src={nexcentimg} alt="" />
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Nexcent</h1>
@@ -35,7 +35,7 @@ export const Card1 = () => {
 
 export const Card2 = () => {
   return (
-    <div className="bg-[#292e39] text-[#ECEFF4] flex flex-col rounded-b-md">
+    <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
       <img src={pancarimaimg} alt="" />
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Pancarima</h1>
@@ -60,7 +60,7 @@ export const Card2 = () => {
 
 export const Card3 = () => {
   return (
-    <div className="bg-[#292e39] text-[#ECEFF4] flex flex-col rounded-b-md">
+    <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
       <img src={kasirappimg} alt="" />
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Kasir App</h1>
@@ -85,7 +85,7 @@ export const Card3 = () => {
 
 export const Card4 = () => {
   return (
-    <div className="bg-[#292e39] text-[#ECEFF4] flex flex-col rounded-b-md">
+    <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
       <img src={inditechimg} alt="" />
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Inditech</h1>
@@ -111,7 +111,7 @@ export const Card4 = () => {
 
 export const Card5 = () => {
   return (
-    <div className="bg-[#292e39] text-[#ECEFF4] flex flex-col rounded-b-md">
+    <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
       <img src={irtitodo} alt="" />
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Todo App</h1> 
