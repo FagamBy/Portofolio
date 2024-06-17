@@ -154,6 +154,10 @@
     pointer-events: none;
   }
   
+  img {
+    pointer-events: none;
+  }
+  
   ::-webkit-scrollbar {
     width: 10px;
   }
