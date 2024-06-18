@@ -11,7 +11,7 @@ import irtitodo from "/irtitodo.png";
 export const Card1 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
-      <img src={nexcentimg} alt="" />
+      <img src={nexcentimg} alt="" className="imeg"/>
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Nexcent</h1>
         <div className="flex items-center space-x-4 text-sm font-medium">
@@ -36,7 +36,7 @@ export const Card1 = () => {
 export const Card2 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
-      <img src={pancarimaimg} alt="" />
+      <img src={pancarimaimg} alt="" className="imeg"/>
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Pancarima</h1>
         <div className="flex items-center space-x-4 text-sm font-medium">
@@ -61,7 +61,7 @@ export const Card2 = () => {
 export const Card3 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
-      <img src={kasirappimg} alt="" />
+      <img src={kasirappimg} alt="" className="imeg"/>
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Kasir App</h1>
         <div className="flex items-center space-x-4 text-sm font-medium">
@@ -86,7 +86,7 @@ export const Card3 = () => {
 export const Card4 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
-      <img src={inditechimg} alt="" />
+      <img src={inditechimg} alt="" className="imeg"/>
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Inditech</h1>
         <div className="flex items-center space-x-4 text-sm font-medium">
@@ -112,7 +112,7 @@ export const Card4 = () => {
 export const Card5 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
-      <img src={irtitodo} alt="" />
+      <img src={irtitodo} alt="" className="imeg"/>
       <div className="p-5 flex flex-col space-y-6">
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Todo App</h1> 
         <div className="flex items-center space-x-4 text-sm font-medium">
