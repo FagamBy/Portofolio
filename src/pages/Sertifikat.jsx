@@ -20,7 +20,7 @@ const Sertifikat = () => {
       <div className="spacer layer3 absolute"></div>
 
       <div
-        className="w-full z-10 pt-16 md:mt-40 sm:mt-28 xs:mt-16 lg:mt-48 xl:mt-60"
+        className="w-full z-10 pt-16 ss:mt-20 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60"
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
