@@ -3,7 +3,6 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import pancarimaimg from "/pancarimaimg.png";
-import nexcentimg from "/nexcentimg.png";
 import kasirappimg from "/kasirappimg.png";
 import inditechimg from "/inditechimg.png";
 import irtitodo from "/irtitodo.png";
@@ -11,9 +10,12 @@ import irtitodo from "/irtitodo.png";
 export const Card1 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
-      <img src={nexcentimg} alt="" className="imeg"/>
+      <img 
+        // src={}
+        alt="" className="imeg"
+      />
       <div className="p-5 flex flex-col space-y-6">
-        <h1 className="text-2xl font-semibold text-[#88C0D0]">Nexcent</h1>
+        <h1 className="text-2xl font-semibold text-[#88C0D0]"></h1>
         <div className="flex items-center space-x-4 text-sm font-medium">
           <a
             href="https://github.com/IRTIDEATH/IRTI-Nexcent"
