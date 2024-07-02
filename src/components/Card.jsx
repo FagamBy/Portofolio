@@ -6,16 +6,20 @@ import pancarimaimg from "/pancarimaimg.png";
 import kasirappimg from "/kasirappimg.png";
 import inditechimg from "/inditechimg.png";
 import irtitodo from "/irtitodo.png";
+import dhafaart from "/dhafaart.png"
 
 export const Card1 = () => {
   return (
     <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
       <img 
-        // src={}
+        src={dhafaart}
         alt="" className="imeg"
       />
       <div className="p-5 flex flex-col space-y-6">
-        <h1 className="text-2xl font-semibold text-[#88C0D0]"></h1>
+        <div className="flex space-x-2 items-center">
+          <h1 className="text-2xl font-semibold text-[#88C0D0]">Dhafa art</h1>
+          <p className="text-[#D8DEE9] text-xs">{"[ON PROGRESS]"}</p>
+        </div>
         <div className="flex items-center space-x-4 text-sm font-medium">
           <a
             href="https://github.com/IRTIDEATH/IRTI-Nexcent"
