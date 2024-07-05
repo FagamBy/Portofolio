@@ -22,8 +22,8 @@ export const Card1 = () => {
         </div>
         <div className="flex items-center space-x-4 text-sm font-medium">
           <a
-            href="https://github.com/IRTIDEATH/IRTI-Nexcent"
-            className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm"
+            aria-disabled
+            className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm cursor-not-allowed"
           >
             <FontAwesomeIcon className="text-[1rem]" icon={faGithub}/> {" "} Github
           </a>
