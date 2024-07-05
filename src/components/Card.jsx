@@ -28,7 +28,7 @@ export const Card1 = () => {
             <FontAwesomeIcon className="text-[1rem]" icon={faGithub}/> {" "} Github
           </a>
           <a
-            href="https://irti-nexcent.vercel.app/"
+            href="https://dhafaart.vercel.app/"
             className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm"
           >
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> {" "} Demo
