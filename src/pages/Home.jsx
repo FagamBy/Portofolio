@@ -8,14 +8,14 @@ const Home = () => {
       sm:justify-between pt-24 pb-16"
     >
       <div className="flex flex-col space-y-3 items-start">
-        <p className="font-medium text-lg text-[#ECEFF4]">Hi! My name is</p>
+        <p className="font-medium text-lg text-[#ECEFF4]">Hi There! My name is</p>
         <h1 className="text-6xl font-semibold text-[#ECEFF4]">
           <span className="text-[#88C0D0]">Al Sakha </span>F
           <span className="text-[#88C0D0]">. </span>A
           <span className="text-[#88C0D0]">.</span>
         </h1>
         <p className="font-medium text-base text-[#ECEFF4]">
-          Someone who enjoys learning new things and tech
+          Someone who enjoys learning new things and tech.
         </p>
         <h1 className="text-sm font-medium text-[#2e3440] py-2 px-[0.50rem] bg-[#88C0D0] rounded-sm animate-pulse">
           Web Developer

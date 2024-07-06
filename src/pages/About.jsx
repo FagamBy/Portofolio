@@ -27,14 +27,15 @@ const About = () => {
           </div>
 
           <div className="flex flex-col my-10">
-            <div className="flex items-center justify-center flex-col space-y-4 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
+            <div className="flex items-center justify-center flex-col space-y-2 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
               <p className="text-center text-wrap text-[#D8DEE9] text-lg">
-                Hello there! I am a junior web developer who loves learning to code. I started learning coding in 2022.
+                Hello there! I am a junior web developer who loves learning to code. I started learning code in 2022.
               </p>
               <p className="text-center text-wrap text-[#D8DEE9] text-lg">
                 I created this website to showcase both the projects I am
                 currently working on and those I have completed.
               </p>
+              <p className="text-center text-wrap text-[#D8DEE9] text-lg">I am ready to work independently or in a team.</p>
             </div>
           </div>
         </div>
