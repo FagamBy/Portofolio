@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -32,20 +33,68 @@ const Home = () => {
         </div>
 
         <div className="w-full flex items-end mt-[1.20rem] justify-end">
-          <div className="bg-[#3B4252] w-full ml-5 sm:ml-36 mr-5 p-5 rounded-md">
+          <div className="bg-[#3B4252] w-[240px] mr-5 p-5 rounded-md">
             <div className="flex flex-col items-start space-y-3">
-              <div className="w-[140px] bg-[#D8DEE9] py-[0.35rem] rounded-[2px]"></div>
+              <motion.div
+                className="w-[140px] bg-[#D8DEE9] py-[0.35rem] rounded-[2px]"
+                initial={{ opacity: 0, width: "0px" }}
+                whileInView={{ opacity: 1, width: "140px" }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                viewport={{ once: true }}
+              ></motion.div>
               <div className="flex w-full items-center justify-between">
-                <div className="w-[65px] bg-[#81A1C1] py-[0.35rem] rounded-[2px] mr-3"></div>
-                <div className="w-[120px] bg-[#88C0D0] py-[0.35rem] rounded-[2px]"></div>
+                <motion.div
+                  className="w-[65px] bg-[#81A1C1] py-[0.35rem] rounded-[2px]"
+                  initial={{ opacity: 0, width: "0px" }}
+                  whileInView={{ opacity: 1, width: "65px" }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                  viewport={{ once: true }}
+                ></motion.div>
+                <motion.div
+                  className="w-[120px] bg-[#88C0D0] py-[0.35rem] rounded-[2px]"
+                  initial={{ opacity: 0, width: "0px" }}
+                  whileInView={{ opacity: 1, width: "120px" }}
+                  transition={{ duration: 0.6, delay: 0.5 }}
+                  viewport={{ once: true }}
+                ></motion.div>
               </div>
-              <div className="w-[126px] bg-[#5E81AC] py-[0.35rem] rounded-[2px]"></div>
+              <motion.div
+                className="w-[126px] bg-[#5E81AC] py-[0.35rem] rounded-[2px]"
+                initial={{ opacity: 0, width: 0 }}
+                whileInView={{ opacity: 1, width: "126px" }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+                viewport={{ once: true }}
+              ></motion.div>
               <div className="flex w-full items-center justify-between">
-                <div className="w-[55px] bg-[#5E81AC] py-[0.35rem] rounded-[2px]"></div>
-                <div className="w-[55px] bg-[#8FBCBB] py-[0.35rem] rounded-[2px]"></div>
-                <div className="w-[55px] bg-[#E5E9F0] py-[0.35rem] rounded-[2px]"></div>
+                <motion.div
+                  className="w-[55px] bg-[#5E81AC] py-[0.35rem] rounded-[2px]"
+                  initial={{ opacity: 0, width: 0 }}
+                  whileInView={{ opacity: 1, width: "55px" }}
+                  transition={{ duration: 0.6, delay: 0.7 }}
+                  viewport={{ once: true }}
+                ></motion.div>
+                <motion.div
+                  className="w-[55px] bg-[#8FBCBB] py-[0.35rem] rounded-[2px]"
+                  initial={{ opacity: 0, width: 0 }}
+                  whileInView={{ opacity: 1, width: "55px" }}
+                  transition={{ duration: 0.6, delay: 0.7 }}
+                  viewport={{ once: true }}
+                ></motion.div>
+                <motion.div
+                  className="w-[55px] bg-[#E5E9F0] py-[0.35rem] rounded-[2px]"
+                  initial={{ opacity: 0, width: 0 }}
+                  whileInView={{ opacity: 1, width: "55px" }}
+                  transition={{ duration: 0.6, delay: 0.7 }}
+                  viewport={{ once: true }}
+                ></motion.div>
               </div>
-              <div className="w-full bg-[#88C0D0] py-[0.35rem] rounded-[2px]"></div>
+              <motion.div
+                className="w-full bg-[#88C0D0] py-[0.35rem] rounded-[2px]"
+                initial={{ opacity: 0, width: 0 }}
+                whileInView={{ opacity: 1, width: "100%" }}
+                transition={{ duration: 0.6, delay: 0.8 }}
+                viewport={{ once: true }}
+              ></motion.div>
             </div>
           </div>
         </div>
