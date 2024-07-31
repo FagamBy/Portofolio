@@ -9,7 +9,7 @@ import {
 
 export const IconHtml = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -49,7 +49,7 @@ export const IconHtml = () => {
 
 export const IconCss = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -89,7 +89,7 @@ export const IconCss = () => {
 
 export const IconJs = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -144,7 +144,7 @@ export const IconJs = () => {
 
 export const IconTs = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -205,7 +205,7 @@ export const IconTs = () => {
 
 export const IconReact = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -251,7 +251,7 @@ export const IconReact = () => {
 
 export const IconTailwind = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -286,7 +286,7 @@ export const IconTailwind = () => {
 
 export const IconNextjs = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
@@ -332,7 +332,7 @@ export const IconNextjs = () => {
 
 export const IconThreejs = () => {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={100}>
       <Tooltip>
         <TooltipTrigger>
           <svg
