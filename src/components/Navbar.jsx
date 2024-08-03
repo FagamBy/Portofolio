@@ -13,7 +13,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`w-full flex py-[1.35rem] justify-between items-center top-0 right-0 px-8 big:px-20 xl:px-36 xxl:px-40 z-[1000]
+      className={`w-full flex py-[1.35rem] justify-between items-center top-0 right-0 px-8 big:px-20 xl:px-36 xxl:px-40 z-50
       fixed ${scroll ? "stickys" : "bstickys"}
       bg-[#2e3440]
       `}

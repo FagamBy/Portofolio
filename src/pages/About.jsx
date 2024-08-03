@@ -41,7 +41,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="xs:mt-8 sm:mt-0 w-[300px] ss:w-[380px] h-[230px] bg-white rounded-lg">
+            {/* <div className="xs:mt-8 sm:mt-0 w-[300px] ss:w-[380px] h-[230px] bg-white rounded-lg">
               <div className="w-full bg-[#3B4252] flex flex-row space-x-3 px-8 py-4 rounded-t-md">
                 <div className="p-2 bg-[#D8DEE9] rounded-full"></div>
                 <div className="p-2 bg-[#D8DEE9] rounded-full"></div>
@@ -114,7 +114,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
