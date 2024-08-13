@@ -1,6 +1,6 @@
 import React from "react";
 import {motion} from 'framer-motion'
-import { Card1, Card2, Card3, Card4, Card5 } from "@/components/Card";
+import { Card1, Card2, Card3, Card4, Card5, Card6 } from "@/components/Card";
 
 const Project = () => {
   return (
@@ -27,6 +27,7 @@ const Project = () => {
               <Card3/>
               <Card4/>
               <Card5/>
+              <Card6/>
             </div>
           </div>
         </div>

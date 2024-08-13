@@ -1,5 +1,8 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faBook } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowUpRightFromSquare,
+  faBook,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import pancarimaimg from "/pancarimaimg.png";
@@ -7,6 +10,7 @@ import kasirappimg from "/kasirappimg.png";
 import inditechimg from "/inditechimg.png";
 import irtitodo from "/irtitodo.png";
 import dhafaart from "/dhafaart.png";
+import zabod from "/zabod.png";
 
 import {
   Dialog,
@@ -147,6 +151,31 @@ export const Card5 = () => {
           </a>
           <a
             href="https://irti-todo.vercel.app/"
+            className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm"
+          >
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const Card6 = () => {
+  return (
+    <div className="bg-[#292e39] text-[#2e3440] flex flex-col rounded-b-md">
+      <img src={zabod} alt="" className="imeg" />
+      <div className="p-5 flex flex-col space-y-6">
+        <h1 className="text-2xl font-semibold text-[#88C0D0]">Zabod</h1>
+        <div className="flex items-center space-x-4 text-sm font-medium">
+          <a
+            aria-disabled
+            className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm cursor-not-allowed"
+          >
+            <FontAwesomeIcon className="text-[1rem]" icon={faGithub} /> Github
+          </a>
+          <a
+            href="https://zabod.vercel.app/"
             className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm"
           >
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Demo
