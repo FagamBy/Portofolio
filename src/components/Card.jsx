@@ -94,8 +94,8 @@ export const Card3 = () => {
         <h1 className="text-2xl font-semibold text-[#88C0D0]">Kasir App</h1>
         <div className="flex items-center space-x-4 text-sm font-medium">
           <a
-            aria-disabled
-            className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm cursor-not-allowed"
+            href="https://github.com/IRTIDEATH/IRTI-KasirApp"
+            className="hover:text-[#88C0D0] hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] p-[0.4rem] rounded-sm"
           >
             <FontAwesomeIcon className="text-[1rem]" icon={faGithub} /> Github
           </a>
