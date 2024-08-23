@@ -16,7 +16,7 @@ const Sertifikat = () => {
     Autoplay({ delay: 3000 })
   );
   return (
-    <div className="bg-[#292e39] flex flex-col">
+    <section className="bg-[#292e39] flex flex-col">
       <div className="spacer layer3 absolute"></div>
 
       <div
@@ -60,7 +60,7 @@ const Sertifikat = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

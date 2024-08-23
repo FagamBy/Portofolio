@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div
+    <section
       id="home"
       className="bg-[#2e3440] flex sm:flex-row flex-col items-center px-8 big:px-20 xl:px-36 xxl:px-40
       sm:justify-between pt-28 pb-16"
@@ -77,7 +77,7 @@ const Home = () => {
           />
         </svg>
       </div>
-    </div>
+    </section>
   );
 };
 

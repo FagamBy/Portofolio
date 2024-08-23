@@ -15,7 +15,7 @@ import { Game } from "@/assets/icon/Game";
 const Skills = () => {
   const ref = useRef(null);
   return (
-    <div className="bg-[#2e3440] flex flex-col">
+    <section className="bg-[#2e3440] flex flex-col">
       <div className="spacer layer2 absolute"></div>
 
       <div
@@ -69,7 +69,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

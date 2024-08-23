@@ -12,19 +12,19 @@ const App = () => {
   return (
     <div className="bg-[#2e3440] w-full overflow-hidden">
       <div className={`${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <header className={`${styles.boxWidth}`}>
           <Navbar />
-        </div>
+        </header>
       </div>
 
-      <div className={`${styles.boxWidth}`}>
+      <main className={`${styles.boxWidth}`}>
         <Home />
         <About />
         <Skills/>
         <Sertifikat/>
         <Project/>
         <Footer/>
-      </div>
+      </main>
     </div>
   );
 };

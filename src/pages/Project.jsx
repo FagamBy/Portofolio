@@ -4,7 +4,7 @@ import CardP from "@/components/CardP";
 
 const Project = () => {
   return (
-    <div className="bg-[#2e3440] flex flex-col">
+    <section className="bg-[#2e3440] flex flex-col">
       <div className="spacer layer4 absolute"></div>
 
       <div id="project" className="w-full z-10 pt-16 ss:mt-20 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60">
@@ -25,7 +25,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

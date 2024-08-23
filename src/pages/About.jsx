@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="bg-[#292e39] flex flex-col">
+    <section className="bg-[#292e39] flex flex-col">
       <div className="spacer layer1 flex items-center justify-start px-8 big:px-20 xl:px-36 xxl:px-40 absolute">
         <Backpack />
       </div>
@@ -118,7 +118,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
