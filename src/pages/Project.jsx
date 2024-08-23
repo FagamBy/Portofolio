@@ -1,6 +1,6 @@
 import React from "react";
 import {motion} from 'framer-motion'
-import { Card1, Card2, Card3, Card4, Card5, Card6 } from "@/components/Card";
+import CardP from "@/components/CardP";
 
 const Project = () => {
   return (
@@ -21,14 +21,7 @@ const Project = () => {
           </div>
 
           <div className="mx-8 big:mx-20 xl:mx-36 xxl:mx-40 mt-10">
-            <div className="grid lg:grid-cols-3 xs:grid-rows-1 sm:grid-cols-2 gap-6">
-              <Card1/>
-              <Card2/>
-              <Card3/>
-              <Card4/>
-              <Card5/>
-              <Card6/>
-            </div>
+            <CardP/>
           </div>
         </div>
       </div>
