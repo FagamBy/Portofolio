@@ -20,6 +20,7 @@ import zabod from "/zabod.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function CardP() {
   return (
@@ -31,7 +32,7 @@ export default function CardP() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <img src={dhafaart} alt="" className="rounded-md mb-4" />
+          <LazyLoadImage src={dhafaart} alt="" className="rounded-md mb-4" />
           <p className="text-[#D8DEE9]">
             Ini adalah website art portfolio milik Muhammad Dhaffa.
           </p>
@@ -60,7 +61,7 @@ export default function CardP() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <img src={pancarimaimg} alt="" className="rounded-md mb-4" />
+          <LazyLoadImage src={pancarimaimg} alt="" className="rounded-md mb-4" />
           <p className="text-[#D8DEE9]">
             Ini adalah website dari kegiatan lomba Sagasitas AWS 2024.
           </p>
@@ -89,7 +90,7 @@ export default function CardP() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <img src={kasirappimg} alt="" className="rounded-md mb-4" />
+          <LazyLoadImage src={kasirappimg} alt="" className="rounded-md mb-4" />
           <p className="text-[#D8DEE9]">
             Ini adalah applikasi kasir yang saya buat, untuk tugas sekolah.
           </p>
@@ -118,7 +119,7 @@ export default function CardP() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <img src={inditechimg} alt="" className="rounded-md mb-4" />
+          <LazyLoadImage src={inditechimg} alt="" className="rounded-md mb-4" />
           <p className="text-[#D8DEE9]">
             Website dari kegiatan pra-PKL yang dibuat oleh 6 orang.
           </p>
@@ -147,7 +148,7 @@ export default function CardP() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <img src={irtitodo} alt="" className="rounded-md mb-4" />
+          <LazyLoadImage src={irtitodo} alt="" className="rounded-md mb-4" />
           <p className="text-[#D8DEE9]">
             Ini adalah applikasi website TodoList sederhana.
           </p>
@@ -176,7 +177,7 @@ export default function CardP() {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <img src={zabod} alt="" className="rounded-md mb-4" />
+          <LazyLoadImage src={zabod} alt="" className="rounded-md mb-4" />
           <p className="text-[#D8DEE9]">
             Website e-commerce, untuk membeli kostum keyboard.
           </p>
@@ -200,25 +201,4 @@ export default function CardP() {
       </Card>
     </div>
   );
-}
-
-function ImageIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-      <circle cx="9" cy="9" r="2" />
-      <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
-    </svg>
-  );
-}
+};
