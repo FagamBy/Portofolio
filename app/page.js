@@ -1,9 +1,9 @@
 import LenisWrapper from "@/components/LenisWrapper";
 import Navbar from "@/components/Navbar";
 import About from "@/components/sect/About";
+import Experience from "@/components/sect/Experience";
 import Homes from "@/components/sect/Homes";
 import Project from "@/components/sect/Project";
-import Sertifikat from "@/components/sect/Sertifikat";
 import Skills from "@/components/sect/Skills";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           <Homes />
           <About />
           <Skills />
-          <Sertifikat />
+          <Experience />
           <Project />
         </div>
       </main>
