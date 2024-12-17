@@ -24,26 +24,26 @@ const Experience = () => {
             <Line />
           </div>
 
-          <div className="w-full flex sm:flex-row flex-col space-y-5 sm:space-y-0 justify-between items-center mt-20 mb-16 px-8 big:px-20 xl:px-36 xxl:px-40">
-            <Tabs defaultValue="competition" className="w-full">
-              <TabsList className="absolute bg-[#2e3440]">
+          <div className="w-full flex sm:flex-row flex-col space-y-12 sm:space-y-0 justify-between items-center mt-20 mb-16 px-8 big:px-20 xl:px-36 xxl:px-40">
+            <Tabs defaultValue="competition" className="w-full flex flex-col sm:flex-row items-center sm:items-start space-y-6 sm:space-y-0">
+              <TabsList className="sm:absolute bg-[#2e3440]">
                 <TabsTrigger value="competition">
-                  <Swords size={45} color="#d8dee9" />
+                  <Swords color="#d8dee9" className="w-[30px] h-[30px] sm:w-[45px] sm:h-[45px]" />
                 </TabsTrigger>
                 <TabsTrigger value="internship">
-                  <BriefcaseBusiness size={45} color="#d8dee9" />
+                  <BriefcaseBusiness color="#d8dee9" className="w-[30px] h-[30px] sm:w-[45px] sm:h-[45px]" />
                 </TabsTrigger>
               </TabsList>
-              <div className="ml-24">
+              <div className="ml-0 sm:ml-24 w-[75%]">
                 <TabsContent value="competition">
-                  <Card className="bg-[#2e3440] w-[85%]">
+                  <Card className="bg-[#2e3440]">
                     <div className="flex items-center space-x-5 py-3 pl-5 bg-[#434c5e] rounded-t-xl">
                       <Rewind fill="#fff" size={20} stroke="none" />
                       <h4 className="font-medium text-white">Competition</h4>
                     </div>
-                    <div className="w-full flex flex-col items-start p-7">
+                    <div className="w-full flex p-7">
                       <div className="relative flex flex-col gap-12">
-                        <div className="absolute z-0 h-full w-2 ml-[0.496rem] rounded-full bg-[#eceff4]"></div>
+                        <div className="absolute z-0 h-full w-2 ml-[0.68rem] rounded-full bg-[#eceff4]"></div>
                         {Expe.map((experience) => (
                           <div className="relative" key={experience.id}>
                             <TLcontainer>
