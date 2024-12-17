@@ -6,7 +6,7 @@ import { cva } from "class-variance-authority";
 const TLcontainer = React.forwardRef(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("relative w-full flex items-center", className)}
+    className={cn("flex flex-row items-center gap-3", className)}
     {...props}
   />
 ));
