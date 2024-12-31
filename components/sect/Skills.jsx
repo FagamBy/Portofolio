@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">My Skills</h1>
-            <Line/>
+            <Line />
           </div>
 
           <div className="flex flex-col mx-8 big:mx-20 xl:mx-36 xxl:mx-40 my-10 space-y-6 sm:space-y-0">
@@ -42,12 +42,16 @@ const Skills = () => {
                 className="flex flex-col space-y-5 sm:w-[35vw] ss:w-[50vw] xs:items-center sm:items-start
                   xs:w-[70vw] text-wrap text-[#ECEFF4] xs:text-center sm:text-start"
               >
-                <h1 className="text-3xl font-semibold">Zect tech stack.</h1>
+                <h1 className="text-3xl font-semibold">Zect Technology.</h1>
                 <p className="text-lg font-normal text-[#D8DEE9]">
-                  Im learning to create my own personal tech stack, of course
-                  with my favorite programming language.
+                  I{"'"}m learning to create my own personal tech stack, of
+                  course with my favorite programming language.
                 </p>
-                <Link href="/tech" aria-label="tech" className="text-base text-start transition duration-150 font-normal text-[#ECEFF4] border-[#4c566a] hover:text-[#88C0D0] py-[0.3rem] px-[1rem] border-[1px] hover:border-[#88C0D0] rounded-sm">
+                <Link
+                  href="/tech"
+                  aria-label="tech"
+                  className="text-base text-start transition duration-150 font-normal text-[#ECEFF4] border-[#4c566a] hover:text-[#88C0D0] py-[0.3rem] px-[1rem] border-[1px] hover:border-[#88C0D0] rounded-sm"
+                >
                   more Tech
                 </Link>
               </div>

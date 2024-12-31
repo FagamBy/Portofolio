@@ -30,13 +30,22 @@ export const Expe = [
     id: "expe2",
     content: "Juara Harapan 1 LKS Jakarta Timur 2024",
     icon: <div className="bg-[#a3be8c] rounded-full w-[30px] h-[30px] p-3" />,
-    bgcolor: "green"
+    bgcolor: "green",
   },
   {
     id: "expe3",
     content: "Mengikuti lomba website statis Sagasitas Agustus 2024",
     icon: <div className="bg-[#bf616a] rounded-full w-[30px] h-[30px] p-3" />,
-    bgcolor: "red"
+    bgcolor: "red",
+  },
+];
+
+export const Intern = [
+  {
+    id: "intern1",
+    content: "INDI Technology | September 2024 - November 2024",
+    icon: <div className="bg-[#5e81ac] rounded-full w-[30px] h-[30px] p-3" />,
+    bgcolor: "default",
   },
 ];
 
