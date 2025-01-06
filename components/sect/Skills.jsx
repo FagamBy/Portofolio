@@ -23,7 +23,7 @@ const Skills = () => {
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
-            <h1 className="text-3xl text-[#ECEFF4] font-medium">My Skills</h1>
+            <h1 className="text-3xl text-[#ECEFF4] font-medium">Skill Saya</h1>
             <Line />
           </div>
 
@@ -44,15 +44,15 @@ const Skills = () => {
               >
                 <h1 className="text-3xl font-semibold">Zect Technology.</h1>
                 <p className="text-lg font-normal text-[#D8DEE9]">
-                  I{"'"}m learning to create my own personal tech stack, of
-                  course with my favorite programming language.
+                  Saya mencoba membuat kumpulan teknologi untuk membuat suatu proyek nanti.
+                  Teknologinya bisa Anda lihat sendiri.
                 </p>
                 <Link
                   href="/tech"
                   aria-label="tech"
                   className="text-base text-start transition duration-150 font-normal text-[#ECEFF4] border-[#4c566a] hover:text-[#88C0D0] py-[0.3rem] px-[1rem] border-[1px] hover:border-[#88C0D0] rounded-sm"
                 >
-                  more Tech
+                  Tech Selengkapnya
                 </Link>
               </div>
             </div>

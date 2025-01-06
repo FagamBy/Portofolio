@@ -15,22 +15,22 @@ const About = () => {
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
-            <h1 className="text-3xl text-[#ECEFF4] font-medium">About me</h1>
-            <Line/>
+            <h1 className="text-3xl text-[#ECEFF4] font-medium">Tentang Saya</h1>
+            <Line />
           </div>
 
           <div className="flex flex-col-reverse my-7 items-center justify-between">
-            <div className="flex items-center justify-center flex-col space-y-1 mt-8 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
-              <p className="text-center text-wrap text-[#D8DEE9] text-lg">
-                Hello there! I am a junior web developer who loves learning to
-                code. I started learning code in 2022.
+            <div className="flex items-center justify-center flex-col space-y-3 mt-8 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
+              <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">
+                Halo, saya adalah seorang npc yang sedang belajar tentang
+                bagaimana caranya untuk mempelajari Pemrograman. Awalnya saya tidak ingin
+                belajar coding karena sama sekali tidak bisa matematika, akan tetapi
+                tiba-tiba saja saya masuk ke sekolah SMK dengan jurusan rekayasa
+                perangkat lunak, jadi Ya Sudahlah saya mencoba belajar saja.
               </p>
-              <p className="text-center text-wrap text-[#D8DEE9] text-lg">
-                I created this website to showcase both the projects I am
-                currently working on and those I have completed.
-              </p>
-              <p className="text-center text-wrap text-[#D8DEE9] text-lg">
-                I am ready to work independently or in a team.
+              <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">
+                Saya membuat Website Portfolio ini hanya untuk memperlihatkan
+                project yang sudah kubuat dan yang sedang kubuat.
               </p>
             </div>
           </div>

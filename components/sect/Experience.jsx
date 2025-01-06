@@ -18,7 +18,7 @@ const Experience = () => {
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">
-              My Experience
+              Pengalaman Saya
             </h1>
             <Line />
           </div>
@@ -100,11 +100,11 @@ const Experience = () => {
                   xs:w-[70vw] text-wrap text-[#ECEFF4] xs:text-center sm:text-start"
             >
               <h1 className="text-3xl font-semibold">
-                A little of my experience.
+                Sedikit Pengalaman Saya.
               </h1>
               <p className="text-lg font-normal text-[#D8DEE9]">
-                Starting from participating in several competitions and
-                internships at a company.
+                Dimulai dari mencoba ikut lomba, hingga menjalankan kegiatan magang di suatu
+                Perusahaan.
               </p>
             </div>
           </div>

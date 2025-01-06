@@ -1,3 +1,5 @@
+import { Button } from "../ui/button";
+
 const Homes = () => {
   return (
     <section
@@ -7,17 +9,15 @@ const Homes = () => {
     >
       <div className="flex flex-col space-y-3 items-start">
         <p className="font-medium text-lg text-[#ECEFF4]">
-          Hi There! My name is
+          H-halo semuanya, namaku
         </p>
         <h1 className="text-6xl font-semibold text-[#ECEFF4]">
           <span className="text-[#88C0D0]">Al Sakha </span>F. A.
         </h1>
         <p className="font-medium text-base text-[#ECEFF4]">
-          Someone who enjoys learning new things and tech.
+          Seorang npc yang tidak sengaja lewat.
         </p>
-        <h1 className="text-sm font-medium text-[#2e3440] py-2 px-[0.50rem] bg-[#88C0D0] rounded-sm">
-          IRTIDEATH
-        </h1>
+        <Button variant="lemo" asChild><span>Belum ada cv</span></Button>
       </div>
 
       <div className="xs:mt-8 sm:mt-0">
