@@ -17,7 +17,7 @@ export default function CardP() {
   return (
     <div className="grid lg:grid-cols-3 xs:grid-rows-1 sm:grid-cols-2 gap-6">
       {dataProject.map((item) => (
-        <Card className="rounded-lg bg-[#292e39] text-[#2e3440] flex flex-col">
+        <Card key={item.id} className="rounded-lg bg-[#292e39] text-[#2e3440] flex flex-col">
           <CardHeader className="p-4">
             <CardTitle className="text-xl font-semibold text-[#88C0D0]">
               {item.title}
