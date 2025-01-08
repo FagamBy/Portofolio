@@ -19,6 +19,9 @@ const Tech = () => {
       </Link>
 
       <Techs />
+      <p className="text-[0.50rem]">
+        Halaman ini malas saya kerjakan lagi, jadi hiraukan saja, wkwk.
+      </p>
     </div>
   );
 };

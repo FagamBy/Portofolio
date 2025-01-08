@@ -44,8 +44,8 @@ const Skills = () => {
               >
                 <h1 className="text-3xl font-semibold">Zect Technology.</h1>
                 <p className="text-lg font-normal text-[#D8DEE9]">
-                  Saya mencoba membuat kumpulan teknologi untuk membuat suatu proyek nanti.
-                  Teknologinya bisa Anda lihat sendiri.
+                  Saya mencoba membuat kumpulan teknologi yang nanti akan saya
+                  gunakan untuk membuat suatu proyek.
                 </p>
                 <Link
                   href="/tech"

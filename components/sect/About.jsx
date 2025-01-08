@@ -15,22 +15,25 @@ const About = () => {
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
-            <h1 className="text-3xl text-[#ECEFF4] font-medium">Tentang Saya</h1>
+            <h1 className="text-3xl text-[#ECEFF4] font-medium">
+              Tentang Saya
+            </h1>
             <Line />
           </div>
 
           <div className="flex flex-col-reverse my-7 items-center justify-between">
-            <div className="flex items-center justify-center flex-col space-y-3 mt-8 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
+            <div className="flex items-center justify-center flex-col space-y-3 mt-6 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
               <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">
                 Halo, saya adalah seorang npc yang sedang belajar tentang
-                bagaimana caranya untuk mempelajari Pemrograman. Awalnya saya tidak ingin
-                belajar coding karena sama sekali tidak bisa matematika, akan tetapi
-                tiba-tiba saja saya masuk ke sekolah SMK dengan jurusan rekayasa
-                perangkat lunak, jadi Ya Sudahlah saya mencoba belajar saja.
+                bagaimana caranya untuk mempelajari Pemrograman. Awalnya saya
+                tidak ingin belajar Pemrograman karena sama sekali tidak bisa
+                matematika, akan tetapi tiba-tiba saja saya nyangkut ke sekolah
+                SMK dengan jurusan Rekayasa Perangkat Lunak, jadi Ya Sudahlah
+                saya mencoba belajar saja.
               </p>
               <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">
                 Saya membuat Website Portfolio ini hanya untuk memperlihatkan
-                project yang sudah kubuat dan yang sedang kubuat.
+                project yang sudah saya buat dan yang sedang saya kerjakan.
               </p>
             </div>
           </div>

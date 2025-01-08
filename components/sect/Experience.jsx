@@ -8,6 +8,8 @@ import { BriefcaseBusiness, Rewind, Swords } from "lucide-react";
 import { Card } from "../ui/card";
 import { TLcontainer, TLcontent, TLicon } from "../ui/timelinecard";
 import { Expe, Intern } from "@/constants";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import Swatch from "../icon/Swatch";
 
 const Experience = () => {
   return (
@@ -42,30 +44,32 @@ const Experience = () => {
                   />
                 </TabsTrigger>
               </TabsList>
-              <div className="ml-0 sm:ml-24 sm:w-[75%]">
+              <div className="ml-0 sm:ml-24 sm:w-[70%]">
                 <TabsContent value="competition">
                   <Card className="bg-[#2e3440]">
                     <div className="flex items-center space-x-5 py-3 pl-5 bg-[#434c5e] rounded-t-xl">
                       <Rewind fill="#fff" size={20} stroke="none" />
                       <h4 className="font-medium text-white">Competition</h4>
                     </div>
-                    <div className="w-full flex p-7">
-                      <div className="relative flex flex-col gap-12">
-                        <div className="absolute z-0 h-full w-2 ml-[0.68rem] rounded-full bg-[#eceff4]"></div>
-                        {Expe.map((experience) => (
-                          <div className="relative" key={experience.id}>
-                            <TLcontainer>
-                              <TLicon>{experience.icon}</TLicon>
-                              <TLcontent variant={`${experience.bgcolor}`}>
-                                <h1 className="text-[#eceff4]">
-                                  {experience.content}
-                                </h1>
-                              </TLcontent>
-                            </TLcontainer>
-                          </div>
-                        ))}
+                    <ScrollArea className="h-[30rem]">
+                      <div className="w-full flex p-7">
+                        <div className="relative flex flex-col gap-12">
+                          <div className="absolute z-0 h-full w-2 ml-[0.68rem] rounded-full bg-[#eceff4]"></div>
+                          {Expe.map((experience) => (
+                            <div className="relative" key={experience.id}>
+                              <TLcontainer>
+                                <TLicon>{experience.icon}</TLicon>
+                                <TLcontent variant={`${experience.bgcolor}`}>
+                                  <h1 className="text-[#eceff4]">
+                                    {experience.content}
+                                  </h1>
+                                </TLcontent>
+                              </TLcontainer>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    </ScrollArea>
                   </Card>
                 </TabsContent>
                 <TabsContent value="internship">
@@ -74,38 +78,41 @@ const Experience = () => {
                       <Rewind fill="#fff" size={20} stroke="none" />
                       <h4 className="font-medium text-white">Internship</h4>
                     </div>
-                    <div className="w-full flex p-7">
-                      <div className="relative flex flex-col gap-12">
-                        <div className="absolute z-0 h-full w-2 ml-[0.68rem] rounded-full bg-[#eceff4]"></div>
-                        {Intern.map((inter) => (
-                          <div className="relative" key={inter.id}>
-                            <TLcontainer>
-                              <TLicon>{inter.icon}</TLicon>
-                              <TLcontent variant={`${inter.bgcolor}`}>
-                                <h1 className="text-[#eceff4]">
-                                  {inter.content}
-                                </h1>
-                              </TLcontent>
-                            </TLcontainer>
-                          </div>
-                        ))}
+                    <ScrollArea className="h-[30rem]">
+                      <div className="w-full flex p-7">
+                        <div className="relative flex flex-col gap-12">
+                          <div className="absolute z-0 h-full w-2 ml-[0.68rem] rounded-full bg-[#eceff4]"></div>
+                          {Intern.map((inter) => (
+                            <div className="relative" key={inter.id}>
+                              <TLcontainer>
+                                <TLicon>{inter.icon}</TLicon>
+                                <TLcontent variant={`${inter.bgcolor}`}>
+                                  <h1 className="text-[#eceff4]">
+                                    {inter.content}
+                                  </h1>
+                                </TLcontent>
+                              </TLcontainer>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    </ScrollArea>
                   </Card>
                 </TabsContent>
               </div>
             </Tabs>
             <div
               className="flex flex-col space-y-5 sm:w-[55vw] ss:w-[50vw] xs:items-center sm:items-start
-                  xs:w-[70vw] text-wrap text-[#ECEFF4] xs:text-center sm:text-start"
+                  xs:w-[70vw] text-wrap text-[#ECEFF4] xs:text-center sm:text-start relative"
             >
               <h1 className="text-3xl font-semibold">
                 Sedikit Pengalaman Saya.
               </h1>
               <p className="text-lg font-normal text-[#D8DEE9]">
-                Dimulai dari mencoba ikut lomba, hingga menjalankan kegiatan magang di suatu
-                Perusahaan.
+                Dimulai dari mencoba mengikuti lomba, hingga menjalankan
+                kegiatan magang di suatu Perusahaan.
               </p>
+              <Swatch />
             </div>
           </div>
         </div>
