@@ -1,10 +1,13 @@
 import CardP from "@/components/CardP";
 import Line from "../ui/Line";
+import Compass from "../icon/Compass";
 
 const Project = () => {
   return (
     <section className="bg-[#2e3440] flex flex-col mb-16">
-      <div className="spacer layer4 absolute"></div>
+      <div className="spacer layer4 absolute">
+        <Compass/>
+      </div>
 
       <div id="project" className="w-full z-10 pt-16 ss:mt-20 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60">
         <div className="flex flex-col justify-center">
