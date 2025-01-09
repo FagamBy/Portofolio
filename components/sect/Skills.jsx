@@ -57,7 +57,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="flex sm:justify-end justify-center xs:space-x-0 sm:space-x-16 md:mr-24 xs:mr-0">
+            <div className="flex sm:justify-end justify-center xs:space-x-0 sm:space-x-16 md:mr-24 xs:mr-0 relative">
               <Game />
               <div className="flex items-center justify-between w-[450px] p-4 bg-[#292e39] rounded-md card-shadow">
                 <IconTailwind />

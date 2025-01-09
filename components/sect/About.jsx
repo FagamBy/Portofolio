@@ -1,4 +1,5 @@
 import { Backpack } from "../icon/Backpack";
+import Coffee from "../icon/Coffee";
 import Line from "../ui/Line";
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
             <Line />
           </div>
 
-          <div className="flex flex-col-reverse my-7 items-center justify-between">
+          <div className="flex flex-col-reverse my-7 items-center justify-between relative">
             <div className="flex items-center justify-center flex-col space-y-3 mt-6 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
               <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">
                 Halo, saya adalah seorang npc yang sedang belajar tentang
@@ -36,6 +37,7 @@ const About = () => {
                 project yang sudah saya buat dan yang sedang saya kerjakan.
               </p>
             </div>
+            <Coffee/>
           </div>
         </div>
       </div>

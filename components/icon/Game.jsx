@@ -1,7 +1,7 @@
 export const Game = () => {
   return (
     <svg
-      className="xs:hidden xs:object-contain sm:w-[70px] sm:flex sm:h-auto ss:object-contain"
+      className="w-[70px] h-auto object-contain absolute top-[5rem] right-[40rem]"
       fill="#4C566A"
       height="800px"
       width="800px"
