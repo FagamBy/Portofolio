@@ -49,7 +49,9 @@ const Experience = () => {
                   <Card className="bg-[#2e3440]">
                     <div className="flex items-center space-x-5 py-3 pl-5 bg-[#434c5e] rounded-t-xl">
                       <Rewind fill="#fff" size={20} stroke="none" />
-                      <h4 className="font-medium text-white">Competition</h4>
+                      <span className="font-medium text-white">
+                        Competition
+                      </span>
                     </div>
                     <ScrollArea className="h-[30rem]">
                       <div className="w-full flex p-7">
@@ -76,7 +78,7 @@ const Experience = () => {
                   <Card className="bg-[#2e3440]">
                     <div className="flex items-center space-x-5 py-3 pl-5 bg-[#434c5e] rounded-t-xl">
                       <Rewind fill="#fff" size={20} stroke="none" />
-                      <h4 className="font-medium text-white">Internship</h4>
+                      <span className="font-medium text-white">Internship</span>
                     </div>
                     <ScrollArea className="h-[30rem]">
                       <div className="w-full flex p-7">
