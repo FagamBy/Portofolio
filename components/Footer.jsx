@@ -8,7 +8,11 @@ import { usePathname } from "next/navigation";
 const Footer = () => {
   const pathname = usePathname()
   return (
-    <footer className={`flex justify-center items-center ${pathname === "/tech" ? "bg-transparent border-t-4 border-t-[#d8dee9]" : "bg-[#292e39]"}`}>
+    <footer
+      className={`flex justify-center items-center ${
+        pathname === "/tech" ? "layerfootertech" : "layerfooter"
+      } spacer`}
+    >
       <div
         className="w-full mx-8 big:mx-20 xl:mx-36 xxl:mx-40
         flex items-center justify-center"
@@ -42,7 +46,11 @@ const Footer = () => {
             </svg>
           </div>
 
-          <div className={`flex space-x-4 text-xl ${pathname === "/tech" ? "text-[#4c566a]" : "text-[#D8DEE9]"}`}>
+          <div
+            className={`flex space-x-4 text-xl ${
+              pathname === "/tech" ? "text-[#4c566a]" : "text-[#D8DEE9]"
+            }`}
+          >
             <Link
               href="https://discordapp.com/users/yasudahlah"
               aria-label="Discord"
@@ -69,7 +77,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h1 className={`font-medium ${pathname === "/tech" ? "text-[#4c566a]" : "text-[#D8DEE9]"}`}>&copy; 2024 - Zect</h1>
+            <h1
+              className={`font-medium ${
+                pathname === "/tech" ? "text-[#4c566a]" : "text-[#D8DEE9]"
+              }`}
+            >
+              &copy; 2024 - Zect
+            </h1>
           </div>
         </div>
       </div>

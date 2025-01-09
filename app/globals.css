@@ -169,6 +169,14 @@ body {
     background-image: url('../public/assets/waves4.svg');
 }
 
+.layerfooter {
+  background-image: url('../public/assets/footerwave.svg');
+}
+
+.layerfootertech {
+  background-image: url('../public/assets/footerwave2.svg');
+}
+
 svg {
   pointer-events: none;
 }

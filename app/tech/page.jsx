@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Tech = () => {
   return (
-    <div className="w-full px-6 py-12 bg-[#F8F9FB] min-h-screen space-y-5">
+    <div className="w-full px-6 py-12 bg-[#ffffff] min-h-screen space-y-5">
       <Link
         href="/"
         aria-label="backtohome"
