@@ -6,7 +6,7 @@ import Line from "../ui/Line";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 import { BriefcaseBusiness, Rewind, Swords } from "lucide-react";
 import { Card } from "../ui/card";
-import { TLcontainer, TLcontent, TLicon } from "../ui/timelinecard";
+import { TLcontainer, TLcontent, TLicon, TLiconContainer } from "../ui/timelinecard";
 import { Expe, Intern } from "@/constants";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Swatch from "../icon/Swatch";
@@ -60,7 +60,9 @@ const Experience = () => {
                           {Expe.map((experience) => (
                             <div className="relative" key={experience.id}>
                               <TLcontainer>
-                                <TLicon>{experience.icon}</TLicon>
+                                <TLiconContainer>
+                                  <TLicon variant={`${experience.icon}`}/>
+                                </TLiconContainer>
                                 <TLcontent variant={`${experience.bgcolor}`}>
                                   <h1 className="text-[#eceff4]">
                                     {experience.content}
@@ -87,7 +89,9 @@ const Experience = () => {
                           {Intern.map((inter) => (
                             <div className="relative" key={inter.id}>
                               <TLcontainer>
-                                <TLicon>{inter.icon}</TLicon>
+                                <TLiconContainer>
+                                  <TLicon variant={`${inter.icon}`}/>
+                                </TLiconContainer>
                                 <TLcontent variant={`${inter.bgcolor}`}>
                                   <h1 className="text-[#eceff4]">
                                     {inter.content}
