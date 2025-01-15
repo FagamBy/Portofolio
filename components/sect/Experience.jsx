@@ -16,11 +16,14 @@ const Experience = () => {
     <section className="bg-[#292e39] flex flex-col">
       <div className="spacer layer3 absolute"></div>
 
-      <div className="w-full z-10 pt-16 ss:mt-20 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60">
+      <div
+        id="experience"
+        className="w-full z-10 pt-16 ss:mt-20 md:mt-40 sm:mt-32 xs:mt-16 lg:mt-48 xl:mt-60"
+      >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">
-              Pengalaman Saya
+              Pengalaman
             </h1>
             <Line />
           </div>
@@ -61,7 +64,7 @@ const Experience = () => {
                             <div className="relative" key={experience.id}>
                               <TLcontainer>
                                 <TLiconContainer>
-                                  <TLicon variant={`${experience.icon}`}/>
+                                  <TLicon variant={`${experience.icon}`} />
                                 </TLiconContainer>
                                 <TLcontent variant={`${experience.bgcolor}`}>
                                   <h1 className="text-[#eceff4]">
@@ -90,7 +93,7 @@ const Experience = () => {
                             <div className="relative" key={inter.id}>
                               <TLcontainer>
                                 <TLiconContainer>
-                                  <TLicon variant={`${inter.icon}`}/>
+                                  <TLicon variant={`${inter.icon}`} />
                                 </TLiconContainer>
                                 <TLcontent variant={`${inter.bgcolor}`}>
                                   <h1 className="text-[#eceff4]">

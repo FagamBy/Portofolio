@@ -17,7 +17,7 @@ const About = () => {
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
             <h1 className="text-3xl text-[#ECEFF4] font-medium">
-              Tentang Saya
+              Tentang
             </h1>
             <Line />
           </div>
@@ -25,11 +25,9 @@ const About = () => {
           <div className="flex flex-col-reverse my-7 items-center justify-between relative">
             <div className="flex items-center justify-center flex-col space-y-3 mt-6 mx-8 big:mx-20 xl:mx-36 xxl:mx-40">
               <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">
-                Halo, saya adalah seorang npc yang sedang belajar tentang
+                Cerita sedikit, saya adalah seseorang yang sedang belajar tentang
                 bagaimana caranya untuk mempelajari Pemrograman. Awalnya saya
-                tidak ingin belajar Pemrograman karena sama sekali tidak bisa
-                matematika, akan tetapi tiba-tiba saja saya nyangkut ke sekolah
-                SMK dengan jurusan Rekayasa Perangkat Lunak, jadi Ya Sudahlah
+                tidak ingin belajar Pemrograman, karena benar-benar sama sekali tidak bisa dan tidak mampu dalam bidang Matematika, akan tetapi tiba-tiba saja saya nyangkut ke sekolah Rekayasa Perangkat Lunak, jadi Ya Sudahlah
                 saya mencoba belajar saja.
               </p>
               <p className="text-center text-wrap text-[#D8DEE9] text-lg w-full max-w-2xl">

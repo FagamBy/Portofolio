@@ -23,7 +23,7 @@ const Skills = () => {
       >
         <div className="flex flex-col justify-center">
           <div className="flex flex-col items-center space-y-3">
-            <h1 className="text-3xl text-[#ECEFF4] font-medium">Skill Saya</h1>
+            <h1 className="text-3xl text-[#ECEFF4] font-medium">Kemampuan</h1>
             <Line />
           </div>
 

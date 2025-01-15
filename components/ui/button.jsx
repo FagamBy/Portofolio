@@ -20,7 +20,7 @@ const buttonVariants = cva(
         secondary:
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        lemo: "text-base text-start transition duration-150 font-normal text-[#ECEFF4] border-[#4c566a] hover:text-[#88C0D0] py-[0.3rem] px-[1rem] border-[1px] hover:border-[#88C0D0] rounded-sm",
+        lemo: "text-base text-start transition duration-150 font-normal text-[#ECEFF4] border-[#4c566a] hover:text-[#88C0D0] py-[0.3rem] px-[1rem] border-[1.3px] hover:border-[#88C0D0] rounded-sm",
         linknot: "hover:text-[#88C0D0] gap-1 flex items-center hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0] cursor-not-allowed",
         link: "hover:text-[#88C0D0] flex items-center hover:bg-transparent border-2 border-[#88C0D0] hover:border-2 transition duration-200 bg-[#88C0D0]"
       },

@@ -12,7 +12,7 @@ export const Backpack = () => {
       xmlSpace="preserve"
       stroke="#3A4150"
       strokeWidth="2.56"
-      className="xs:w-[50px] xs:h-auto xs:object-contain ss:w-[85px] ss:h-auto ss:object-contain mt-5 sm:mt-0"
+      className="xs:w-[50px] xs:h-auto xs:object-contain ss:w-[70px] ss:h-auto ss:object-contain mt-5 sm:mt-0"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
