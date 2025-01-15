@@ -5,7 +5,7 @@ import Compass from "../icon/Compass";
 const Project = () => {
   return (
     <section className="bg-[#2e3440] flex flex-col mb-16">
-      <div className="spacer layer4 absolute">
+      <div className="spacer layer4 absolute flex justify-end">
         <Compass/>
       </div>
 

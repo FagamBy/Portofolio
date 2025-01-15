@@ -121,7 +121,9 @@ const Experience = () => {
                 Dimulai dari mencoba mengikuti lomba, hingga menjalankan
                 kegiatan magang di suatu Perusahaan.
               </p>
-              <Swatch />
+              <div className="w-full flex justify-end">
+                <Swatch />
+              </div>
             </div>
           </div>
         </div>

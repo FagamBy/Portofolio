@@ -12,7 +12,7 @@ const Coffee = () => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 512 512"
       xmlSpace="preserve"
-      className="hidden sm:block sm:w-[70px] ss:h-auto ss:object-contain absolute m-auto sm:top-[16rem] sm:right-[8rem]"
+      className="hidden ss:block ss:w-[50px] ss:h-auto ss:object-contain absolute m-auto ss:top-[18rem] ss:right-[2rem] -z-10"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 

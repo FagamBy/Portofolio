@@ -13,7 +13,7 @@ const Compass = () => {
       xmlSpace="preserve"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      className="absolute hidden ss:block ss:right-[4rem] sm:right-[12rem] ss:bottom-[-2rem] sm:bottom-0 md:right-[17rem] lg:right-[22rem]"
+      className="absolute w-[80px] ss:w-[90px] sm:w-[110px] right-[2rem] sm:right-[12rem] bottom-[-3rem] ss:bottom-[-2rem] sm:bottom-[-1rem] md:right-[17rem] lg:right-[22rem]"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 

@@ -4,7 +4,7 @@ const Swatch = () => {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="hidden ss:block ss:w-[85px] ss:h-auto ss:object-contain absolute m-auto sm:top-[14rem] sm:right-[7rem] ss:top-[12rem] ss:right-[19rem]"
+      className="w-[50px] ss:w-[65px] sm:w-[75px] h-auto object-contain absolute m-auto right-[15rem] top-[14rem] sm:top-[14rem] sm:right-[7rem] ss:top-[15rem] ss:right-[19rem]"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
