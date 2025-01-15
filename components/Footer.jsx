@@ -18,9 +18,7 @@ const Footer = () => {
         flex items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center py-8 space-y-5">
-          <div className="flex items-center justify-center space-x-2">
-            logo
-          </div>
+          <div className="flex items-center justify-center space-x-2">logo</div>
 
           <div
             className={`flex space-x-4 text-xl ${
@@ -58,7 +56,7 @@ const Footer = () => {
                 pathname === "/tech" ? "text-[#4c566a]" : "text-[#D8DEE9]"
               }`}
             >
-              &copy; 2024 - Zect
+              &copy; <span className="text-[#88C0D0]">2024</span> - Zect
             </h1>
           </div>
         </div>

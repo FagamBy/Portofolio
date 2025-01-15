@@ -4,23 +4,24 @@ import geoporimg from "../public/geoporimg.webp";
 import inditechimg from "../public/inditechimg.webp";
 import zabodimg from "../public/zabodimg.webp";
 import zentraimg from "../public/zentraimg.webp";
+import masharitsimg from "../public/masharitsimg.webp";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
-  },
-  {
-    id: "about",
-    title: "About",
+    title: "Beranda",
   },
   {
     id: "skills",
-    title: "Skills",
+    title: "Kemampuan",
+  },
+  {
+    id: "experience",
+    title: "Pengalaman",
   },
   {
     id: "project",
-    title: "Project",
+    title: "Proyek",
   },
 ];
 
@@ -141,7 +142,7 @@ export const dataProject = [
     id: "2",
     title: "Kasir Festo",
     img: kasirappimg,
-    desc: "Ini adalah applikasi kasir yang saya buat, untuk tugas sekolah. Kasir Festo merupakan sebuah platfrom kasir sederhana yang dibuat karena tugas sekolah.",
+    desc: "Kasir Festo merupakan sebuah platfrom kasir sederhana yang dibuat karena tugas dari sekolah saya.",
     badge: "production",
     badgetext: "Production",
     githublink: "https://github.com/IRTIDEATH/IRTI-KasirApp",
@@ -186,5 +187,15 @@ export const dataProject = [
     badgetext: "Production",
     githublink: "#home",
     demolink: "https://web.geoportal-lautberkah.kalteng.go.id/",
+  },
+  {
+    id: "7",
+    title: "Harits Portfolio",
+    img: masharitsimg,
+    desc: "Merupakan website portfolio milik Muhammad Harits, yang bekerja sebagai seorang Human Resource Management.",
+    badge: "development",
+    badgetext: "Development",
+    githublink: "#home",
+    demolink: "https://harits.vercel.app/",
   },
 ];
