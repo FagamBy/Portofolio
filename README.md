@@ -12,6 +12,7 @@ Terima Kasih bagi yang sudah mengunjungi.
 <br/>
 
 ## Dibuat dengan
+- Javascript
 - Next.js
 - Tailwindcss
 - Shadcn UI
