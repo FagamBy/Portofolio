@@ -25,4 +25,4 @@ Terima Kasih bagi yang sudah mengunjungi.
 <br/>
 <br/>
 
-<h6>Terima Kasih lagi</h6>
+<h6>Jadi, itu saja, sekian Terima Kasih</h6>
