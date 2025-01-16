@@ -3,11 +3,8 @@
   <a href="https://zect.vercel.app/" target="_blank">Zect</a>
 </h1>
 
-Ini adalah repository website portfolio nya. <br/>
+Ini adalah repository dari website portfolio nya. <br/>
 Terima Kasih bagi yang sudah mengunjungi.
-
-> Panjang-panjang orang sigma yang sudah memberikan bintang skibidi di repo ini, <br/>
-> semoga hari kalian selalu edging dan gooning ditemani kai cenat mewing di ohio rizz.
 
 <br/>
 
@@ -24,6 +21,11 @@ Terima Kasih bagi yang sudah mengunjungi.
 - [Nord Theme](https://www.nordtheme.com/)
 
 <br/>
+<br/>
+
+> Panjang-panjang orang sigma yang sudah memberikan bintang skibidi di repo ini, <br/>
+> semoga hari kalian selalu edging dan gooning ditemani kai cenat mewing di ohio rizz.
+
 <br/>
 
 <h6>Jadi, itu saja, sekian Terima Kasih</h6>
