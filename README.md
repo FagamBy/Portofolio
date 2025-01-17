@@ -28,4 +28,5 @@ Terima Kasih bagi yang sudah mengunjungi.
 
 <br/>
 
+> Sekedar informasi ini bukan website portfolio utama.
 <h6>Jadi, itu saja, sekian Terima Kasih</h6>
