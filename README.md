@@ -21,12 +21,19 @@ Terima Kasih bagi yang sudah mengunjungi.
 - [Nord Theme](https://www.nordtheme.com/)
 
 <br/>
+
+## Fitur yang akan datang
+- Content Management System
+
 <br/>
-
-> Panjang-panjang orang sigma yang sudah memberikan bintang skibidi di repo ini, <br/>
-> semoga hari kalian selalu edging dan gooning ditemani kai cenat mewing di ohio rizz.
-
 <br/>
 
 > Sekedar informasi ini bukan website portfolio utama.
+
+<br/>
+
+<h6>
+  Panjang-panjang orang sigma yang sudah memberikan bintang skibidi di repo ini, <br/>
+  semoga hari kalian selalu edging dan gooning.
+<h6/>
 <h6>Jadi, itu saja, sekian Terima Kasih</h6>
