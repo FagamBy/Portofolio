@@ -21,11 +21,6 @@ Terima Kasih bagi yang sudah mengunjungi.
 - [Nord Theme](https://www.nordtheme.com/)
 
 <br/>
-
-## Fitur yang akan datang
-- Content Management System
-
-<br/>
 <br/>
 
 > Sekedar informasi ini bukan website portfolio utama.
