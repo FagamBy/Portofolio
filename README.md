@@ -1,6 +1,6 @@
 <h1 align="center">
   Portfolio Website <br/>
-  <a href="https://zect.vercel.app/" target="_blank">Zect</a>
+  <a href="https://fagamby.vercel.app/" target="_blank">Zect</a>
 </h1>
 
 Ini adalah repository dari website portfolio nya. <br/>

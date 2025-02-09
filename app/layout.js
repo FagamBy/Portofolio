@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 const font = Rubik({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://zect.vercel.app"),
+  metadataBase: new URL("https://fagamby.vercel.app"),
   keyword: ["Zect", "Portfolio", "Website Developer"],
   title: {
     default: "Zect - Portfolio",
@@ -14,8 +14,8 @@ export const metadata = {
   description: "Portfolio website owned by Al Sakha F.A.",
   authors: [
     {
-      name: "Al Sakha F.A.",
-      url: "https://github.com/IRTIDEATH",
+      name: "El-FagamBy",
+      url: "https://github.com/FagamBy",
     },
   ],
   icons: {

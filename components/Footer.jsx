@@ -26,7 +26,7 @@ const Footer = () => {
             }`}
           >
             <Link
-              href="https://discordapp.com/users/yasudahlah"
+              href="https://discordapp.com/"
               aria-label="Discord"
               className="hover:text-[#88C0D0] text-[1.55rem]"
             >
@@ -34,7 +34,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href="https://github.com/IRTIDEATH"
+              href="https://github.com/FagamBy"
               aria-label="Github"
               className="hover:text-[#88C0D0] text-[1.35rem]"
             >
@@ -42,7 +42,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              href="https://instagram.com/IrtiDeath"
+              href="https://instagram.com/fagamby.id"
               aria-label="Instagram"
               className="hover:text-[#88C0D0] text-[1.45rem]"
             >
